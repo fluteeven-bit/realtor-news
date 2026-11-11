@@ -1,23 +1,23 @@
 {
- "scannedAt": "2026-11-11T03:38:37.893Z",
+ "scannedAt": "2026-11-11T03:40:05.436Z",
  "mode": "scan",
  "cats": {
   "rate": {
    "queries": 4,
    "failed": 0,
-   "items": 84,
+   "items": 85,
    "why": []
   },
   "policy": {
    "queries": 5,
    "failed": 0,
-   "items": 215,
+   "items": 214,
    "why": []
   },
   "tax": {
    "queries": 4,
    "failed": 0,
-   "items": 119,
+   "items": 120,
    "why": []
   },
   "market": {
@@ -35,7 +35,7 @@
   "local": {
    "queries": 3,
    "failed": 0,
-   "items": 101,
+   "items": 102,
    "why": []
   },
   "dispute": {
@@ -46,16 +46,15 @@
   },
   "ptt": {
    "queries": 1,
-   "failed": 1,
+   "failed": 0,
    "items": 0,
-   "why": [
-    "HTTP 403"
-   ]
+   "why": [],
+   "skipped": "PTT 會擋雲端機房（HTTP 403），排程不抓；已存的照常可看"
   },
   "kw": {
    "queries": 5,
    "failed": 0,
-   "items": 88,
+   "items": 87,
    "why": []
   }
  },
@@ -103,10 +102,10 @@
    "why": null
   }
  },
- "ms": 10971,
- "added": 7,
- "merged": 2,
- "resolved": 117,
+ "ms": 7500,
+ "added": 5,
+ "merged": 1,
+ "resolved": 2,
  "resolveFailed": 0,
- "total": 7010
+ "total": 7015
 }
