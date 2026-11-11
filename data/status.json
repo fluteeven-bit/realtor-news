@@ -1,29 +1,29 @@
 {
- "scannedAt": "2026-11-11T03:25:22.910Z",
+ "scannedAt": "2026-11-11T03:38:37.893Z",
  "mode": "scan",
  "cats": {
   "rate": {
    "queries": 4,
    "failed": 0,
-   "items": 83,
+   "items": 84,
    "why": []
   },
   "policy": {
    "queries": 5,
    "failed": 0,
-   "items": 213,
+   "items": 215,
    "why": []
   },
   "tax": {
    "queries": 4,
    "failed": 0,
-   "items": 118,
+   "items": 119,
    "why": []
   },
   "market": {
    "queries": 5,
    "failed": 0,
-   "items": 161,
+   "items": 160,
    "why": []
   },
   "build": {
@@ -35,25 +35,27 @@
   "local": {
    "queries": 3,
    "failed": 0,
-   "items": 104,
+   "items": 101,
    "why": []
   },
   "dispute": {
    "queries": 2,
    "failed": 0,
-   "items": 35,
+   "items": 34,
    "why": []
   },
   "ptt": {
    "queries": 1,
-   "failed": 0,
-   "items": 31,
-   "why": []
+   "failed": 1,
+   "items": 0,
+   "why": [
+    "HTTP 403"
+   ]
   },
   "kw": {
    "queries": 5,
    "failed": 0,
-   "items": 91,
+   "items": 88,
    "why": []
   }
  },
@@ -101,10 +103,10 @@
    "why": null
   }
  },
- "ms": 25592,
- "added": 14,
- "merged": 4,
- "resolved": 120,
+ "ms": 10971,
+ "added": 7,
+ "merged": 2,
+ "resolved": 117,
  "resolveFailed": 0,
- "total": 7003
+ "total": 7010
 }
