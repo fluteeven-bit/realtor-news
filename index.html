@@ -223,7 +223,7 @@
     build: "新建案、推案量、土地標售、地上權、建商買地與合建。",
     local: "新莊、泰山、新埔、板橋、五股；塭仔圳、副都心、頭前重劃區；北環段、輕軌、萬大線。",
     dispute: "房屋買賣、房仲、凶宅、海砂屋、漏水、預售屋的糾紛與判決。",
-    ptt: "PTT 房屋板（home-sale）的最新討論；「🏠 賣屋文」是有人在板上賣房子。",
+    ptt: "PTT 房屋板（home-sale）的討論；「🏠 賣屋文」是有人在板上賣房子。",
     off: "只看政府機關自己發的：中央銀行、財政部、賦稅署、內政部。",
     kw: "固定追蹤字掃到的，加上標題裡有你自己加的關鍵字的。",
   };
@@ -431,9 +431,15 @@
     const s = state.status;
     if (!s) return "";
     const out = [];
-    const want = state.tab === "all" ? Object.keys(s.cats || {}) : [state.tab];
+    if (state.tab === "ptt" && s.cats?.ptt?.skipped) {
+      const last = Math.max(0, ...allItems().filter((it) => it.cats.includes("ptt")).map((it) => it.at));
+      out.push(`<div class="notice part">◐ <b>PTT 會擋自動更新用的雲端機房</b>，所以這一類${last ? `停在 ${md.format(last)} ${hm.format(last)}` : "目前沒有資料"}，下面是之前存下來的。
+        <b>要看最新的討論：<a href="https://www.ptt.cc/bbs/home-sale/index.html" target="_blank" rel="noopener">直接開 PTT 房屋板 ↗</a></b></div>`);
+    }
+    const want = state.tab === "all" ? Object.keys(s.cats || {}).filter((id) => !s.cats[id].skipped) : [state.tab];
     for (const id of want) {
       const c = s.cats?.[id];
+      if (c?.skipped) continue;
       if (!c || !c.failed) continue;
       const name = id === "kw" ? "固定追蹤字" : catLabel(id);
       out.push(c.failed >= c.queries

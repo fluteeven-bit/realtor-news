@@ -89,11 +89,15 @@ await pool(jobs, 3, async (j) => {
   if (backfillMonths) await sleep(250);
 });
 
-// PTT：平常抓最新 2 頁（約 40 篇），往回補時多抓
+// PTT：平常抓最新 2 頁（約 40 篇），往回補時多抓。
+// ⚠ PTT 會擋雲端機房（2026-11-11 第一次排程實測 GitHub Actions 回 HTTP 403），
+//   這是對方的封鎖，不繞過 —— 排程上直接不抓，畫面上講清楚；本機手動跑時照抓。
 {
   const st = status.cats.ptt;
   st.queries = 1;
-  try {
+  if (process.env.GITHUB_ACTIONS) {
+    st.skipped = "PTT 會擋雲端機房（HTTP 403），排程不抓；已存的照常可看";
+  } else try {
     const items = await pttPages(backfillMonths ? 60 : 2);
     st.items = items.length;
     for (const it of items) addFound(it, "ptt");
