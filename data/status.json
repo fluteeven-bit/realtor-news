@@ -1,0 +1,110 @@
+{
+ "scannedAt": "2026-11-11T03:25:22.910Z",
+ "mode": "scan",
+ "cats": {
+  "rate": {
+   "queries": 4,
+   "failed": 0,
+   "items": 83,
+   "why": []
+  },
+  "policy": {
+   "queries": 5,
+   "failed": 0,
+   "items": 213,
+   "why": []
+  },
+  "tax": {
+   "queries": 4,
+   "failed": 0,
+   "items": 118,
+   "why": []
+  },
+  "market": {
+   "queries": 5,
+   "failed": 0,
+   "items": 161,
+   "why": []
+  },
+  "build": {
+   "queries": 2,
+   "failed": 0,
+   "items": 49,
+   "why": []
+  },
+  "local": {
+   "queries": 3,
+   "failed": 0,
+   "items": 104,
+   "why": []
+  },
+  "dispute": {
+   "queries": 2,
+   "failed": 0,
+   "items": 35,
+   "why": []
+  },
+  "ptt": {
+   "queries": 1,
+   "failed": 0,
+   "items": 31,
+   "why": []
+  },
+  "kw": {
+   "queries": 5,
+   "failed": 0,
+   "items": 91,
+   "why": []
+  }
+ },
+ "official": {
+  "cbc": {
+   "src": "中央銀行",
+   "ok": true,
+   "items": 500,
+   "matched": 77,
+   "why": null
+  },
+  "mof": {
+   "src": "財政部",
+   "ok": true,
+   "items": 1206,
+   "matched": 134,
+   "why": null
+  },
+  "dot": {
+   "src": "財政部賦稅署",
+   "ok": true,
+   "items": 102,
+   "matched": 22,
+   "why": null
+  },
+  "moi-news": {
+   "src": "內政部",
+   "ok": true,
+   "items": 20,
+   "matched": 4,
+   "why": null
+  },
+  "moi-draft": {
+   "src": "內政部（草案預告）",
+   "ok": true,
+   "items": 7,
+   "matched": 3,
+   "why": null
+  },
+  "moi-rule": {
+   "src": "內政部（法規發布）",
+   "ok": true,
+   "items": 20,
+   "matched": 7,
+   "why": null
+  }
+ },
+ "ms": 25592,
+ "added": 14,
+ "merged": 4,
+ "resolved": 120,
+ "resolveFailed": 0,
+ "total": 7003
+}

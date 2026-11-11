@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>房市最新情報｜志會買好房</title>
+<meta name="description" content="全台房地產的利率、政策、稅務、行情、建案、糾紛與 PTT 討論，每 2 小時自動整理一次。">
+<style>
+  :root{
+    --navy:#0f2a4a; --navy2:#173a63; --accent:#003C7D; --orange:#F28A00; --gold:#D8A246;
+    --bg:#f6f3ec; --card:#fff; --line:#e6e0d3; --text:#1d2633; --muted:#6b7280;
+    --good:#12805c; --bad:#b42318; --warn:#8a6100;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;line-height:1.6}
+  a{color:inherit}
+  button,select,input{font:inherit;color:inherit}
+  button{cursor:pointer}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+
+  /* 頁首 */
+  header.top{background:var(--navy);color:#fff}
+  header.top .wrap{padding-top:18px;padding-bottom:16px}
+  .brand{font-size:13px;opacity:.8;letter-spacing:.05em}
+  h1{margin:2px 0 4px;font-size:24px;line-height:1.35}
+  h1 small{font-size:15px;font-weight:400;opacity:.85}
+  .sub{font-size:13px;opacity:.85;margin:0}
+  .sub b{color:var(--gold)}
+  .topbar{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin-top:12px;font-size:13px}
+  .topbar .when{display:inline-flex;gap:6px;align-items:center;background:rgba(255,255,255,.1);border-radius:999px;padding:3px 12px}
+  .topbar .today{background:var(--gold);color:var(--navy);font-weight:700;border-radius:999px;padding:3px 12px}
+
+  main .wrap{padding-top:16px;padding-bottom:50px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:14px}
+  .card h2{font-size:16px;margin:0 0 10px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+  .card h2 .hint{font-weight:400}
+  .hint{color:var(--muted);font-size:12px}
+
+  /* 利率看板 */
+  .rates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  .rate{border:1px solid var(--line);border-radius:10px;padding:12px 14px;min-width:0;background:#fffdf8}
+  .rate .k{font-size:13px;color:var(--muted)}
+  .rate .v{font-size:28px;font-weight:800;color:var(--accent);line-height:1.2;margin:2px 0}
+  .rate .v small{font-size:14px;font-weight:600;color:var(--muted)}
+  .rate .d{font-size:12px;color:var(--muted)}
+  .up{color:var(--bad);font-weight:700} .down{color:var(--good);font-weight:700}
+  .spark{display:block;width:100%;height:42px;margin-top:6px}
+  .credit li{font-size:13px;margin:3px 0}
+  .credit ul{margin:6px 0 0;padding-left:18px}
+  .rate a.src{font-size:12px;color:var(--accent)}
+
+  /* 關鍵字 */
+  details.kw summary{cursor:pointer;font-weight:700;list-style:none}
+  details.kw summary::-webkit-details-marker{display:none}
+  details.kw summary::before{content:"▸ ";color:var(--muted)}
+  details.kw[open] summary::before{content:"▾ "}
+  .kwrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+  .kwrow input{flex:1 1 220px;min-width:0;border:1px solid var(--line);border-radius:8px;padding:7px 10px;background:#fff}
+  .btn{border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 12px}
+  .btn:hover{border-color:var(--accent)}
+  .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+  .btn.gold{background:var(--orange);border-color:var(--orange);color:#fff}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .chip{display:inline-flex;align-items:center;gap:4px;border-radius:999px;padding:2px 10px;font-size:13px;border:1px solid #d7c9a5;background:#fbf5e6}
+  .chip.fixed{background:#eef3fa;border-color:#c9d7ea;color:var(--accent)}
+  .chip button{border:0;background:none;padding:0 2px 0 4px;color:var(--muted)}
+
+  /* 分類 */
+  .catbar{background:var(--navy);color:#fff;border-radius:12px 12px 0 0;padding:12px 16px;display:flex;gap:6px 12px;flex-wrap:wrap;align-items:baseline}
+  .catbar b{font-size:16px}
+  .catbar span{font-size:13px;opacity:.8}
+  .cats{background:#fff;border:1px solid var(--line);border-top:0;padding:12px;display:flex;flex-wrap:wrap;gap:8px}
+  .cat{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:#fff;border-radius:10px;padding:7px 12px;font-size:14px;white-space:nowrap}
+  .cat .n{background:#f1ede2;border-radius:999px;padding:0 8px;font-size:12px;font-weight:700}
+  .cat .t{color:var(--orange);font-size:11px;font-weight:700}
+  .cat.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+  .cat.on .n{background:var(--gold);color:var(--navy)}
+  .cat.on .t{color:var(--gold)}
+  .tools{background:#fff;border:1px solid var(--line);border-top:0;padding:10px 12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .tools select,.tools input{border:1px solid var(--line);border-radius:8px;padding:6px 10px;background:#fff}
+  .tools input{flex:1 1 200px;min-width:0}
+  .tools .sp{flex:1 1 auto}
+  .catdesc{background:#fffdf8;border:1px solid var(--line);border-top:0;padding:8px 14px;font-size:12px;color:var(--muted)}
+  .listbox{background:#fff;border:1px solid var(--line);border-top:0;border-radius:0 0 12px 12px;padding:4px 14px 14px}
+
+  .notice{border-radius:8px;padding:10px 12px;font-size:13px;margin:10px 0}
+  .notice.bad{background:#fdecea;border:1px solid #e6a49b;color:#7a1f14}
+  .notice.part{background:#fff8e6;border:1px solid #e8c86a;color:#6b4e00}
+
+  .day{font-size:13px;font-weight:700;color:var(--muted);margin:16px 0 4px;display:flex;gap:8px;align-items:center}
+  .day::after{content:"";flex:1;border-top:1px solid var(--line)}
+  .it{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid #f0ebe0}
+  .it:last-child{border-bottom:0}
+  .heat{flex:0 0 46px;text-align:center;border-radius:8px;background:#f4efe3;padding:4px 0;line-height:1.15}
+  .heat b{display:block;font-size:17px}
+  .heat span{font-size:10px;color:var(--muted)}
+  .heat.hot{background:#fde9d0} .heat.hot b{color:#b54708}
+  .heat.off{background:#e6eef9} .heat.off b{color:var(--accent);font-size:13px;padding:3px 0}
+  .it-main{flex:1 1 auto;min-width:0}
+  .it-t{text-decoration:none;font-weight:600;font-size:15px;overflow-wrap:anywhere}
+  .it-t:hover{color:var(--accent);text-decoration:underline}
+  .it-m{font-size:12px;color:var(--muted);margin-top:3px;display:flex;flex-wrap:wrap;gap:3px 8px;align-items:center}
+  .tag{font-size:11px;border-radius:999px;padding:0 8px;border:1px solid var(--line);white-space:nowrap;background:#faf8f3}
+  .tag.age0{background:#2f7d4f;color:#fff;border-color:#2f7d4f}
+  .tag.age1{background:#5c8f6e;color:#fff;border-color:#5c8f6e}
+  .tag.off{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .tag.kw{background:#fff1c2;border-color:#e6cf6e;color:#7a5b00}
+  .tag.sale{background:#e4f3ec;border-color:#93c9b0;color:var(--good)}
+  .new{background:var(--orange);color:#fff;border-radius:4px;font-size:11px;padding:0 5px;font-weight:700}
+  .bar{height:3px;border-radius:2px;background:#eadfca;margin-top:6px;overflow:hidden}
+  .bar i{display:block;height:100%;background:#b54708}
+  .pick{flex:0 0 auto;font-size:12px;padding:3px 10px;border-radius:999px;border:1px solid var(--line);background:#fff;white-space:nowrap}
+  .pick.on{background:var(--orange);border-color:var(--orange);color:#fff}
+  .empty{border:1px dashed var(--line);border-radius:10px;padding:18px;color:var(--muted);font-size:14px;text-align:center;margin-top:12px}
+  .more{text-align:center;margin-top:14px}
+  .loading{color:var(--muted);text-align:center;padding:24px 0}
+  .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#1d2633;color:#fff;padding:9px 16px;
+    border-radius:999px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:9;max-width:90vw}
+  .toast.show{opacity:1}
+  footer{color:var(--muted);font-size:12px;text-align:center;padding:10px 16px 30px}
+  footer a{color:var(--accent)}
+
+  @media (max-width:820px){
+    /* 手機：利率卡改成左右滑的一排，不要把分類擠到很下面 */
+    .rates{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:4px}
+    .rate{flex:0 0 86%;scroll-snap-align:start}
+    .rates::after{content:"";flex:0 0 1px}
+    .credit li{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    .rate .v{font-size:24px}
+  }
+  .m-only{display:none}
+  @media (max-width:820px){ .m-only{display:inline} }
+  @media (max-width:560px){
+    h1{font-size:20px}
+    .sub{font-size:12px}
+    .cats{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding:10px}
+    .cat{flex:0 0 auto}
+    .heat{flex-basis:40px}
+    .it-t{font-size:14.5px}
+    .listbox{padding:2px 10px 12px}
+  }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">志會買好房｜張裕志 整理</div>
+    <h1>📰 房市最新情報 <small>—— 全台房地產今天發生什麼</small></h1>
+    <p class="sub">利率・政策・稅務・行情・建案・在地・糾紛・PTT，<b>每 2 小時自動掃一次並永久存檔</b>。官方來源：中央銀行、財政部、賦稅署、內政部。</p>
+    <div class="topbar">
+      <span class="today" id="todayN">今日 …</span>
+      <span class="when" id="when">讀取中…</span>
+      <span id="dbsize"></span>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="wrap">
+  <section class="card" id="ratesCard">
+    <h2>🏦 利率看板 <span class="hint">全部取自中央銀行官方新聞稿與附表<span class="m-only">・左右滑看三張</span></span></h2>
+    <div class="rates" id="rates"><div class="loading">讀取中…</div></div>
+  </section>
+
+  <details class="card kw" id="kwBox">
+    <summary>🔔 我的關鍵字（<span id="kwN">0</span> 個）<span class="hint">—— 標題有這些字的，會集中到「🔔 我的關鍵字」分類</span></summary>
+    <div class="kwrow">
+      <input id="kwInput" maxlength="30" placeholder="例：林口、青埔、囤房稅（一次一個詞）" enterkeyhint="done">
+      <button class="btn primary" id="kwAdd">＋ 加入</button>
+    </div>
+    <div class="chips" id="kwChips"></div>
+    <p class="hint" style="margin:10px 0 0">藍色的是<b>每 2 小時自動去 Google 新聞多掃一輪</b>的固定追蹤字（要增減跟 Claude 說）；黃色是你自己加的，只在這個瀏覽器裡，用來從所有分類裡挑出相關的。</p>
+  </details>
+
+  <div class="catbar"><b>🗂 分類</b><span id="catSum">讀取中…</span></div>
+  <div class="cats" id="cats" role="tablist"></div>
+  <div class="catdesc" id="catDesc"></div>
+  <div class="tools">
+    <select id="range" aria-label="時間範圍">
+      <option value="1">今天</option>
+      <option value="3">近 3 天</option>
+      <option value="7" selected>近 7 天</option>
+      <option value="30">近 30 天</option>
+      <option value="0">全部（已載入的）</option>
+    </select>
+    <select id="sort" aria-label="排序">
+      <option value="new">最新的在前</option>
+      <option value="hot">最多家報導在前</option>
+    </select>
+    <input id="q" type="search" placeholder="搜尋標題（例：青安、房地合一、林口）">
+    <button class="btn gold" id="copyBrief">📋 複製今日快報</button>
+  </div>
+  <div class="listbox">
+    <div id="notices"></div>
+    <div id="list"><div class="loading">讀取中…</div></div>
+    <div class="more" id="more"></div>
+  </div>
+</div>
+</main>
+
+<footer>
+  標題連到原始報導，內容版權屬各媒體與機關。熱度＝同一則有幾家媒體報導；PTT 是推文數。<br>
+  資料每 2 小時由 GitHub Actions 自動更新・<a href="data/status.json" target="_blank" rel="noopener">這一次各來源的狀態</a>
+</footer>
+<div class="toast" id="toast"></div>
+
+<script>
+(function () {
+  "use strict";
+  const $ = (s) => document.querySelector(s);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const DAY = 864e5;
+
+  const CAT_DESC = {
+    all: "所有分類合在一起，同一則只出現一次。",
+    rate: "房貸利率、央行利率決議、青安、成數與寬限期、銀行限貸。央行官方新聞稿也在這裡。",
+    policy: "信用管制、平均地權條例、實價登錄、社宅與租金補貼、都更危老、內政部的新聞與法規草案。",
+    tax: "房地合一、囤房稅、房屋稅、地價稅、土增稅、契稅、遺產贈與稅。財政部與賦稅署的官方說明也在這裡。",
+    market: "全台六都房價與交易量、房價指數、預售屋與中古屋買氣、法拍。",
+    build: "新建案、推案量、土地標售、地上權、建商買地與合建。",
+    local: "新莊、泰山、新埔、板橋、五股；塭仔圳、副都心、頭前重劃區；北環段、輕軌、萬大線。",
+    dispute: "房屋買賣、房仲、凶宅、海砂屋、漏水、預售屋的糾紛與判決。",
+    ptt: "PTT 房屋板（home-sale）的最新討論；「🏠 賣屋文」是有人在板上賣房子。",
+    off: "只看政府機關自己發的：中央銀行、財政部、賦稅署、內政部。",
+    kw: "固定追蹤字掃到的，加上標題裡有你自己加的關鍵字的。",
+  };
+
+  const state = {
+    cats: [], items: new Map(), loadedMonths: new Set(), months: [], index: null,
+    tab: "all", range: 7, sort: "new", q: "", picked: new Map(),
+    serverKw: [], localKw: [], scannedAt: null, status: null,
+  };
+  const LKW = "rn-local-kw-v1", SEEN = "rn-last-seen-v1";
+  try { state.localKw = JSON.parse(localStorage.getItem(LKW) || "[]").filter((x) => typeof x === "string"); } catch {}
+  let prevSeen = 0;
+  try { prevSeen = Number(localStorage.getItem(SEEN)) || 0; localStorage.setItem(SEEN, String(Date.now())); } catch {}
+  try { const t = sessionStorage.getItem("rn-tab"); if (t) state.tab = t; } catch {}
+
+  const tpFmt = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei", year: "numeric", month: "2-digit", day: "2-digit" });
+  const tpDate = (ms) => tpFmt.format(ms);
+  const md = new Intl.DateTimeFormat("zh-TW", { timeZone: "Asia/Taipei", month: "numeric", day: "numeric" });
+  const wk = new Intl.DateTimeFormat("zh-TW", { timeZone: "Asia/Taipei", weekday: "short" });
+  const hm = new Intl.DateTimeFormat("zh-TW", { timeZone: "Asia/Taipei", hour: "2-digit", minute: "2-digit", hour12: false });
+  const dayLabel = (ms) => `${md.format(ms)}（${wk.format(ms).slice(-1)}）`;
+  const daysAgo = (ms) => Math.round((Date.parse(tpDate(Date.now())) - Date.parse(tpDate(ms))) / DAY);
+  function ago(ms) {
+    const m = Math.round((Date.now() - ms) / 60000);
+    if (m < 1) return "剛剛";
+    if (m < 60) return `${m} 分鐘前`;
+    if (m < 1440) return `${Math.floor(m / 60)} 小時前`;
+    return `${md.format(ms)} ${hm.format(ms)}`;
+  }
+  function toast(msg) { const t = $("#toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove("show"), 2400); }
+  async function getJSON(u) {
+    const r = await fetch(u, { cache: "no-cache" });
+    if (!r.ok) throw new Error(`讀不到 ${u}（${r.status}）`);
+    return r.json();
+  }
+
+  /* ── 分類判斷 ───────────────────────────────────────── */
+  const kwHit = (it) => {
+    if (it.kw) return it.kw;
+    const t = it.t.toLowerCase();
+    return state.localKw.find((k) => t.includes(k.toLowerCase())) || null;
+  };
+  function inTab(it, tab) {
+    if (tab === "all") return true;
+    if (tab === "off") return !!it.off;
+    if (tab === "kw") return !!kwHit(it);
+    return it.cats.includes(tab);
+  }
+  const inRange = (it) => !state.range || daysAgo(it.at) < state.range;
+  function matchQ(it) {
+    if (!state.q) return true;
+    const hay = (it.t + " " + it.src).toLowerCase();
+    return state.q.toLowerCase().split(/\s+/).filter(Boolean).every((w) => hay.includes(w));
+  }
+  const allItems = () => [...state.items.values()];
+  const visible = (tab) => allItems().filter((it) => inTab(it, tab) && inRange(it) && matchQ(it));
+  const tabs = () => [
+    { id: "all", icon: "🗂", label: "全部" },
+    ...state.cats,
+    { id: "off", icon: "🏷", label: "官方公告" },
+    { id: "kw", icon: "🔔", label: "我的關鍵字" },
+  ];
+  const catLabel = (id) => state.cats.find((c) => c.id === id)?.label || id;
+
+  /* ── 利率看板 ───────────────────────────────────────── */
+  function spark(months) {
+    const v = months.map((m) => m.rate), lo = Math.min(...v), hi = Math.max(...v), w = 240, h = 42, pad = 3;
+    const x = (i) => pad + (i * (w - pad * 2)) / Math.max(1, v.length - 1);
+    const y = (r) => h - pad - ((r - lo) / Math.max(1e-9, hi - lo)) * (h - pad * 2);
+    const d = v.map((r, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(r).toFixed(1)}`).join("");
+    return `<svg class="spark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" aria-label="近 ${v.length} 個月走勢">
+      <path d="${d}" fill="none" stroke="#003C7D" stroke-width="2" vector-effect="non-scaling-stroke"/>
+      <circle cx="${x(v.length - 1)}" cy="${y(v.at(-1))}" r="3" fill="#F28A00"/></svg>`;
+  }
+  const ym = (s) => { const [y, m] = s.split("-"); return `${Number(y) - 1911} 年 ${Number(m)} 月`; };
+  function renderRates(r) {
+    const cards = [];
+    const ms = r?.mortgage?.months || [];
+    if (ms.length) {
+      const last = ms.at(-1), prev = ms.at(-2), d = prev ? Math.round((last.rate - prev.rate) * 1000) / 1000 : null;
+      const yearAgo = ms.find((m) => m.ym === `${Number(last.ym.slice(0, 4)) - 1}${last.ym.slice(4)}`);
+      cards.push(`<div class="rate">
+        <div class="k">五大銀行新承做<b>購屋貸款</b>利率</div>
+        <div class="v">${last.rate.toFixed(3)}<small>%</small></div>
+        <div class="d">${ym(last.ym)}・較上月 ${d == null ? "—" : `<span class="${d > 0 ? "up" : d < 0 ? "down" : ""}">${d > 0 ? "+" : ""}${d.toFixed(3)}</span>`}
+          ${yearAgo ? `・去年同月 ${yearAgo.rate.toFixed(3)}%` : ""}</div>
+        ${spark(ms.slice(-24))}
+        <div class="d">近 ${Math.min(24, ms.length)} 個月走勢・當月新承做 ${last.amount ? Math.round(last.amount / 100).toLocaleString() + " 億元" : "—"}
+          ${r.mortgage.next ? `・下次公布 ${r.mortgage.next.slice(5).replace("-", "/")}` : ""}</div>
+        <a class="src" href="${esc(r.mortgage.source)}" target="_blank" rel="noopener">央行原文 ↗</a></div>`);
+    }
+    const p = r?.policy;
+    if (p && p.rediscount != null) {
+      cards.push(`<div class="rate">
+        <div class="k">央行政策利率（重貼現率）</div>
+        <div class="v">${p.rediscount}<small>%</small></div>
+        <div class="d">${tpDate(Date.parse(p.date)).replace(/-/g, "/")} 理監事會：<b>${esc(p.action || "—")}</b></div>
+        <div class="d">擔保放款融通利率 ${p.secured}%・短期融通利率 ${p.shortTerm}%</div>
+        <div class="d">理監事會每季開一次（3、6、9、12 月）</div>
+        <a class="src" href="${esc(p.source)}" target="_blank" rel="noopener">決議全文 ↗</a></div>`);
+      const c = p.credit;
+      cards.push(`<div class="rate credit">
+        <div class="k">選擇性信用管制（${tpDate(Date.parse(p.date)).slice(5).replace("-", "/")} 理監事會）</div>
+        <div style="font-weight:700;margin-top:4px">${esc(c?.headline || "這次沒有提到信用管制")}</div>
+        ${c?.changes?.length ? `<ul>${c.changes.map((x) => `<li><b>${esc(x.item)}</b>：${esc(x.before)} → <b>${esc(x.after)}</b></li>`).join("")}</ul>`
+          : `<div class="d" style="margin-top:4px">${c?.headline ? "表格裡沒有和上次不同的項目" : ""}</div>`}
+        <a class="src" href="${esc(p.source)}" target="_blank" rel="noopener">看完整成數表 ↗</a></div>`);
+    }
+    if (!cards.length) cards.push(`<div class="notice bad">利率資料這次讀不到${r?.errors?.length ? "（" + esc(r.errors.join("；")) + "）" : ""}。這不是「利率沒有變」。</div>`);
+    $("#rates").innerHTML = cards.join("");
+    if (r?.errors?.length && cards.length) $("#rates").insertAdjacentHTML("afterend", `<div class="notice part">◐ ${esc(r.errors.join("；"))}（上面是上一次讀到的數字）</div>`);
+  }
+
+  /* ── 畫面 ───────────────────────────────────────────── */
+  function renderTop() {
+    const today = tpDate(Date.now());
+    const n = allItems().filter((it) => tpDate(it.at) === today).length;
+    $("#todayN").textContent = `今日 +${n}`;
+    if (state.scannedAt) {
+      const t = Date.parse(state.scannedAt);
+      const stale = Date.now() - t > 6 * 3600e3;
+      $("#when").innerHTML = `🕘 上次更新：${tpDate(t) === today ? "今天" : md.format(t)} ${hm.format(t)}（${ago(t)}）${stale ? " ⚠ 超過 6 小時沒更新" : ""}`;
+    }
+    if (state.index) $("#dbsize").textContent = `資料庫 ${state.index.total.toLocaleString()} 則・${state.index.since?.replace("-", "/")} 起`;
+  }
+
+  function renderCats() {
+    const today = tpDate(Date.now());
+    $("#cats").innerHTML = tabs().map((c) => {
+      const list = visible(c.id);
+      const tn = allItems().filter((it) => inTab(it, c.id) && tpDate(it.at) === today && matchQ(it)).length;
+      return `<button class="cat${state.tab === c.id ? " on" : ""}" role="tab" data-tab="${c.id}">${c.icon} ${esc(c.label)}<span class="n">${list.length}</span>${tn ? `<span class="t">今日+${tn}</span>` : ""}</button>`;
+    }).join("");
+    const rangeTxt = state.range === 1 ? "今天" : state.range ? `近 ${state.range} 天` : "已載入的全部";
+    $("#catSum").textContent = `${rangeTxt}共 ${visible("all").length} 則（同一則只算一次）・點分類切換`;
+    $("#catDesc").textContent = CAT_DESC[state.tab] || "";
+  }
+
+  function heatOf(it) {
+    if (it.off) return `<div class="heat off" title="政府機關發布"><b>官方</b></div>`;
+    if (it.cats.includes("ptt")) return `<div class="heat" title="推文數"><b>${esc(it.push || "0")}</b><span>推</span></div>`;
+    const n = (it.dup || 0) + 1;
+    return `<div class="heat${n >= 3 ? " hot" : ""}" title="${n} 家媒體報導"><b>${n}</b><span>家</span></div>`;
+  }
+  function itemHTML(it, maxHeat) {
+    const picked = state.picked.has(it.id);
+    const age = daysAgo(it.at);
+    const ageTag = age === 0 ? `<span class="tag age0">今天</span>` : age === 1 ? `<span class="tag age1">昨天</span>` : age < 7 ? `<span class="tag">${age} 天前</span>` : "";
+    const tags = [ageTag];
+    for (const c of it.cats.filter((c) => c !== "kw")) tags.push(`<span class="tag">${esc(catLabel(c))}</span>`);
+    const k = kwHit(it);
+    if (k) tags.push(`<span class="tag kw">🔔 ${esc(k)}</span>`);
+    if (it.cats.includes("ptt") && /^\[賣/.test(it.t)) tags.push(`<span class="tag sale">🏠 賣屋文</span>`);
+    const meta = [...tags, it.cats.includes("ptt") ? "" : `<span>${esc(it.src)}</span>`, `<span>${esc(ago(it.at))}</span>`].filter(Boolean);
+    if (prevSeen && it.at > prevSeen) meta.push(`<span class="new">新</span>`);
+    const n = (it.dup || 0) + 1;
+    const bar = !it.off && !it.cats.includes("ptt") && maxHeat > 1 ? `<div class="bar"><i style="width:${Math.round((n / maxHeat) * 100)}%"></i></div>` : "";
+    return `<article class="it">${heatOf(it)}
+      <div class="it-main"><a class="it-t" href="${esc(it.u)}" target="_blank" rel="noopener noreferrer">${esc(it.t)} ↗</a>
+        <div class="it-m">${meta.join("")}</div>${bar}</div>
+      <button class="pick${picked ? " on" : ""}" data-pick="${esc(it.id)}">${picked ? "✓ 快報" : "＋快報"}</button></article>`;
+  }
+
+  const PAGE = 120;
+  let shown = PAGE;
+  function renderList() {
+    let list = visible(state.tab);
+    if (state.sort === "hot") list.sort((a, b) => ((b.dup || 0) - (a.dup || 0)) || (b.at - a.at));
+    else list.sort((a, b) => b.at - a.at);
+    $("#notices").innerHTML = noticesHTML();
+    if (!list.length) {
+      $("#list").innerHTML = `<div class="empty">${state.tab === "kw" && !state.localKw.length && !state.serverKw.length
+        ? "還沒有關鍵字，在上面「🔔 我的關鍵字」加一個。"
+        : `這個分類在這段時間沒有符合的新聞。${state.range && state.range < 30 ? "把時間範圍拉長看看，" : ""}${state.q ? "或拿掉搜尋字。" : ""}`}</div>`;
+      $("#more").innerHTML = moreHTML();
+      return;
+    }
+    const maxHeat = Math.max(...list.map((it) => (it.off || it.cats.includes("ptt") ? 1 : (it.dup || 0) + 1)));
+    let html = "", last = "";
+    for (const it of list.slice(0, shown)) {
+      if (state.sort === "new") {
+        const d = tpDate(it.at);
+        if (d !== last) {
+          const n = list.filter((x) => tpDate(x.at) === d).length;
+          const age = daysAgo(it.at);
+          html += `<div class="day">${age === 0 ? "今天 " : age === 1 ? "昨天 " : ""}${dayLabel(it.at)}　${n} 則</div>`;
+          last = d;
+        }
+      }
+      html += itemHTML(it, maxHeat);
+    }
+    $("#list").innerHTML = html;
+    $("#more").innerHTML = (list.length > shown ? `<button class="btn" data-more="1">再顯示 ${Math.min(PAGE, list.length - shown)} 則（還有 ${list.length - shown} 則）</button> ` : "") + moreHTML();
+  }
+
+  function moreHTML() {
+    const next = state.months.find((m) => !state.loadedMonths.has(m.m));
+    if (!next) return state.months.length ? `<div class="hint" style="margin-top:8px">資料庫 ${state.index?.since?.replace("-", "/")} 以來的 ${state.index?.total?.toLocaleString()} 則都已載入</div>` : "";
+    if (state.range && state.range <= 30 && !state.q) return `<div class="hint" style="margin-top:8px">要看更早的：時間範圍選「全部」，或直接搜尋</div>`;
+    return `<button class="btn" data-older="1">📚 載入更早的 ${next.m.replace("-", "/")}（${next.n} 則）</button>
+      <button class="btn" data-allhist="1">全部載入（${state.index.total.toLocaleString()} 則）</button>`;
+  }
+
+  function noticesHTML() {
+    const s = state.status;
+    if (!s) return "";
+    const out = [];
+    const want = state.tab === "all" ? Object.keys(s.cats || {}) : [state.tab];
+    for (const id of want) {
+      const c = s.cats?.[id];
+      if (!c || !c.failed) continue;
+      const name = id === "kw" ? "固定追蹤字" : catLabel(id);
+      out.push(c.failed >= c.queries
+        ? `<div class="notice bad">⚠ <b>${esc(name)}</b> 上一次掃描每一組都讀不到（${esc(c.why.join("；"))}）。<b>這不是沒有新聞</b>，下面是之前存下來的。</div>`
+        : `<div class="notice part">◐ <b>${esc(name)}</b> 上一次掃描 ${c.queries} 組裡有 ${c.failed} 組沒讀到（${esc(c.why.join("；"))}），可能少了幾則。</div>`);
+    }
+    if (state.tab === "all" || state.tab === "off" || ["rate", "policy", "tax"].includes(state.tab)) {
+      const bad = Object.values(s.official || {}).filter((o) => !o.ok);
+      if (bad.length) out.push(`<div class="notice part">◐ 官方來源上一次沒讀到：${bad.map((o) => `${esc(o.src)}（${esc(o.why)}）`).join("、")}。下面是之前存下來的。</div>`);
+    }
+    return out.join("");
+  }
+
+  function renderKw() {
+    $("#kwN").textContent = state.serverKw.length + state.localKw.length;
+    $("#kwChips").innerHTML =
+      state.serverKw.map((k) => `<span class="chip fixed" title="每 2 小時自動掃">${esc(k)}</span>`).join("") +
+      state.localKw.map((k) => `<span class="chip">${esc(k)}<button data-kwdel="${esc(k)}" aria-label="移除 ${esc(k)}">×</button></span>`).join("");
+  }
+  function renderAll() { renderTop(); renderCats(); renderList(); renderKw(); renderBrief(); }
+  function renderBrief() { $("#copyBrief").textContent = state.picked.size ? `📋 複製快報（已挑 ${state.picked.size} 則）` : "📋 複製今日快報"; }
+
+  /* ── 讀資料 ─────────────────────────────────────────── */
+  function addItems(arr) { for (const it of arr) if (!state.items.has(it.id)) state.items.set(it.id, it); }
+  async function loadMonth(m) {
+    if (state.loadedMonths.has(m)) return;
+    addItems(await getJSON(`data/archive/${m}.json`));
+    state.loadedMonths.add(m);
+  }
+  async function boot() {
+    try {
+      const [latest, index, rates, status] = await Promise.all([
+        getJSON("data/latest.json"), getJSON("data/index.json"),
+        getJSON("data/rates.json").catch(() => null), getJSON("data/status.json").catch(() => null),
+      ]);
+      state.cats = latest.cats; state.serverKw = latest.keywords || []; state.scannedAt = latest.scannedAt;
+      state.index = index; state.months = index.months; state.status = status;
+      addItems(latest.items);
+      renderRates(rates);
+      renderAll();
+      // 「近 30 天」需要上個月與這個月整份，背景補上
+      const now = Date.now();
+      const need = [...new Set([tpDate(now).slice(0, 7), tpDate(now - 31 * DAY).slice(0, 7)])].filter((m) => state.months.some((x) => x.m === m));
+      for (const m of need) await loadMonth(m).catch(() => {});
+      renderAll();
+    } catch (e) {
+      $("#list").innerHTML = `<div class="notice bad">⚠ 資料讀不到（${esc(e.message)}）。這不是「沒有新聞」，重新整理一次看看。</div>`;
+      $("#rates").innerHTML = "";
+    }
+  }
+
+  /* ── 快報 ───────────────────────────────────────────── */
+  function briefItems() {
+    if (state.picked.size) return [...state.picked.values()];
+    const today = tpDate(Date.now());
+    const out = [];
+    for (const id of ["rate", "policy", "tax", "market"]) {
+      out.push(...allItems().filter((it) => it.cats[0] === id && tpDate(it.at) === today)
+        .sort((a, b) => (b.off ? 1 : 0) - (a.off ? 1 : 0) || (b.dup || 0) - (a.dup || 0)).slice(0, 2));
+    }
+    return out;
+  }
+  function briefText(items) {
+    const g = new Map();
+    for (const it of items) {
+      const c = state.cats.find((x) => x.id === it.cats[0]);
+      const k = c ? `${c.icon} ${c.label}` : "🔔 關鍵字";
+      if (!g.has(k)) g.set(k, []);
+      g.get(k).push(it);
+    }
+    const lines = [`📰 房市快報｜${dayLabel(Date.now())}`, ""];
+    for (const [k, list] of g) {
+      lines.push(`【${k}】`);
+      for (const it of list) lines.push(`・${it.t}（${it.src}）`, it.u);
+      lines.push("");
+    }
+    lines.push("整理：志會買好房｜張裕志");
+    return lines.join("\n");
+  }
+  async function copyBrief() {
+    const items = briefItems();
+    if (!items.length) { toast("今天利率、政策、稅務、行情還沒有新聞；可以在任何一則按「＋快報」自己挑"); return; }
+    const text = briefText(items);
+    try { await navigator.clipboard.writeText(text); toast(`已複製 ${items.length} 則，貼到 LINE 就可以了`); }
+    catch {
+      const d = document.createElement("dialog");
+      d.innerHTML = `<p style="margin:0 0 8px">請長按全選後複製：</p><textarea readonly style="width:min(560px,80vw);height:50vh">${esc(text)}</textarea><div style="text-align:right;margin-top:8px"><button class="btn">關閉</button></div>`;
+      document.body.appendChild(d); d.querySelector("button").onclick = () => d.remove(); d.showModal();
+    }
+  }
+
+  /* ── 事件 ───────────────────────────────────────────── */
+  document.addEventListener("click", async (e) => {
+    const t = e.target.closest("[data-tab]");
+    if (t) { state.tab = t.dataset.tab; shown = PAGE; try { sessionStorage.setItem("rn-tab", state.tab); } catch {} renderCats(); renderList(); return; }
+    const p = e.target.closest("[data-pick]");
+    if (p) {
+      const id = p.dataset.pick;
+      if (state.picked.has(id)) state.picked.delete(id); else state.picked.set(id, state.items.get(id));
+      p.classList.toggle("on"); p.textContent = state.picked.has(id) ? "✓ 快報" : "＋快報"; renderBrief(); return;
+    }
+    if (e.target.closest("[data-more]")) { shown += PAGE; renderList(); return; }
+    if (e.target.closest("[data-older]")) {
+      const next = state.months.find((m) => !state.loadedMonths.has(m.m));
+      if (next) { toast(`載入 ${next.m}…`); await loadMonth(next.m); renderAll(); }
+      return;
+    }
+    if (e.target.closest("[data-allhist]")) {
+      toast("載入全部歷史中…");
+      for (const m of state.months) await loadMonth(m.m).catch(() => {});
+      state.range = 0; $("#range").value = "0"; renderAll(); toast(`已載入 ${state.items.size.toLocaleString()} 則`);
+      return;
+    }
+    const d = e.target.closest("[data-kwdel]");
+    if (d) { state.localKw = state.localKw.filter((k) => k !== d.dataset.kwdel); saveKw(); renderAll(); }
+  });
+  function saveKw() { try { localStorage.setItem(LKW, JSON.stringify(state.localKw)); } catch {} }
+  function addKw() {
+    const k = $("#kwInput").value.trim();
+    if (!k) return toast("先打一個詞");
+    if (state.localKw.includes(k) || state.serverKw.includes(k)) return toast(`「${k}」已經在了`);
+    if (state.localKw.length >= 20) return toast("最多 20 個");
+    state.localKw.push(k); saveKw(); $("#kwInput").value = "";
+    const n = allItems().filter((it) => it.t.toLowerCase().includes(k.toLowerCase())).length;
+    toast(`已加入「${k}」，目前載入的資料裡有 ${n} 則`);
+    renderAll();
+  }
+  $("#kwAdd").addEventListener("click", addKw);
+  $("#kwInput").addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.isComposing) addKw(); });
+  $("#range").addEventListener("change", (e) => { state.range = Number(e.target.value); shown = PAGE; renderCats(); renderList(); });
+  $("#sort").addEventListener("change", (e) => { state.sort = e.target.value; renderList(); });
+  let qt;
+  $("#q").addEventListener("input", (e) => { clearTimeout(qt); qt = setTimeout(() => { state.q = e.target.value.trim(); shown = PAGE; renderCats(); renderList(); }, 200); });
+  $("#copyBrief").addEventListener("click", copyBrief);
+
+  boot();
+})();
+</script>
+</body>
+</html>
