@@ -1,17 +1,17 @@
 {
- "scannedAt": "2026-11-13T17:45:38.313Z",
+ "scannedAt": "2026-11-13T23:36:14.732Z",
  "mode": "scan",
  "cats": {
   "rate": {
    "queries": 4,
    "failed": 0,
-   "items": 78,
+   "items": 77,
    "why": []
   },
   "policy": {
    "queries": 5,
    "failed": 0,
-   "items": 233,
+   "items": 235,
    "why": []
   },
   "tax": {
@@ -23,25 +23,25 @@
   "market": {
    "queries": 5,
    "failed": 0,
-   "items": 170,
+   "items": 161,
    "why": []
   },
   "build": {
    "queries": 2,
    "failed": 0,
-   "items": 40,
+   "items": 44,
    "why": []
   },
   "local": {
    "queries": 3,
    "failed": 0,
-   "items": 88,
+   "items": 95,
    "why": []
   },
   "dispute": {
    "queries": 2,
    "failed": 0,
-   "items": 39,
+   "items": 38,
    "why": []
   },
   "ptt": {
@@ -54,7 +54,7 @@
   "kw": {
    "queries": 5,
    "failed": 0,
-   "items": 93,
+   "items": 98,
    "why": []
   }
  },
@@ -102,10 +102,10 @@
    "why": null
   }
  },
- "ms": 8809,
- "added": 58,
+ "ms": 9889,
+ "added": 29,
  "merged": 2,
- "resolved": 54,
+ "resolved": 23,
  "resolveFailed": 0,
- "total": 7581
+ "total": 7610
 }
