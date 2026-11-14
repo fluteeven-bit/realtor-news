@@ -1,5 +1,5 @@
 {
- "scannedAt": "2026-11-14T15:07:01.230Z",
+ "scannedAt": "2026-11-14T20:44:11.284Z",
  "mode": "scan",
  "cats": {
   "rate": {
@@ -11,37 +11,37 @@
   "policy": {
    "queries": 5,
    "failed": 0,
-   "items": 232,
+   "items": 224,
    "why": []
   },
   "tax": {
    "queries": 4,
    "failed": 0,
-   "items": 106,
+   "items": 101,
    "why": []
   },
   "market": {
    "queries": 5,
    "failed": 0,
-   "items": 161,
+   "items": 157,
    "why": []
   },
   "build": {
    "queries": 2,
    "failed": 0,
-   "items": 41,
+   "items": 39,
    "why": []
   },
   "local": {
    "queries": 3,
    "failed": 0,
-   "items": 91,
+   "items": 95,
    "why": []
   },
   "dispute": {
    "queries": 2,
    "failed": 0,
-   "items": 42,
+   "items": 43,
    "why": []
   },
   "ptt": {
@@ -54,7 +54,7 @@
   "kw": {
    "queries": 5,
    "failed": 0,
-   "items": 103,
+   "items": 101,
    "why": []
   }
  },
@@ -69,7 +69,7 @@
   "mof": {
    "src": "財政部",
    "ok": true,
-   "items": 1195,
+   "items": 1193,
    "matched": 133,
    "why": null
   },
@@ -102,10 +102,10 @@
    "why": null
   }
  },
- "ms": 8478,
- "added": 30,
- "merged": 2,
- "resolved": 21,
+ "ms": 8684,
+ "added": 19,
+ "merged": 4,
+ "resolved": 14,
  "resolveFailed": 0,
- "total": 7665
+ "total": 7684
 }
