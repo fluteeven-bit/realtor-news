@@ -1,5 +1,5 @@
 {
- "scannedAt": "2026-11-13T23:36:14.732Z",
+ "scannedAt": "2026-11-14T06:26:38.913Z",
  "mode": "scan",
  "cats": {
   "rate": {
@@ -11,31 +11,31 @@
   "policy": {
    "queries": 5,
    "failed": 0,
-   "items": 235,
+   "items": 232,
    "why": []
   },
   "tax": {
    "queries": 4,
    "failed": 0,
-   "items": 111,
+   "items": 108,
    "why": []
   },
   "market": {
    "queries": 5,
    "failed": 0,
-   "items": 161,
+   "items": 158,
    "why": []
   },
   "build": {
    "queries": 2,
    "failed": 0,
-   "items": 44,
+   "items": 42,
    "why": []
   },
   "local": {
    "queries": 3,
    "failed": 0,
-   "items": 95,
+   "items": 93,
    "why": []
   },
   "dispute": {
@@ -54,7 +54,7 @@
   "kw": {
    "queries": 5,
    "failed": 0,
-   "items": 98,
+   "items": 101,
    "why": []
   }
  },
@@ -84,7 +84,7 @@
    "src": "內政部",
    "ok": true,
    "items": 20,
-   "matched": 6,
+   "matched": 5,
    "why": null
   },
   "moi-draft": {
@@ -102,10 +102,10 @@
    "why": null
   }
  },
- "ms": 9889,
- "added": 29,
- "merged": 2,
+ "ms": 9229,
+ "added": 25,
+ "merged": 3,
  "resolved": 23,
  "resolveFailed": 0,
- "total": 7610
+ "total": 7635
 }
