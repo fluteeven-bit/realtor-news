@@ -1,29 +1,29 @@
 {
- "scannedAt": "2026-11-15T17:12:57.380Z",
+ "scannedAt": "2026-11-15T22:50:15.993Z",
  "mode": "scan",
  "cats": {
   "rate": {
    "queries": 4,
    "failed": 0,
-   "items": 66,
+   "items": 69,
    "why": []
   },
   "policy": {
    "queries": 5,
    "failed": 0,
-   "items": 209,
+   "items": 212,
    "why": []
   },
   "tax": {
    "queries": 4,
    "failed": 0,
-   "items": 101,
+   "items": 98,
    "why": []
   },
   "market": {
    "queries": 5,
    "failed": 0,
-   "items": 153,
+   "items": 150,
    "why": []
   },
   "build": {
@@ -35,13 +35,13 @@
   "local": {
    "queries": 3,
    "failed": 0,
-   "items": 90,
+   "items": 95,
    "why": []
   },
   "dispute": {
    "queries": 2,
    "failed": 0,
-   "items": 49,
+   "items": 48,
    "why": []
   },
   "ptt": {
@@ -54,7 +54,7 @@
   "kw": {
    "queries": 5,
    "failed": 0,
-   "items": 87,
+   "items": 90,
    "why": []
   }
  },
@@ -102,10 +102,10 @@
    "why": null
   }
  },
- "ms": 9631,
+ "ms": 9325,
  "added": 20,
- "merged": 2,
- "resolved": 14,
+ "merged": 5,
+ "resolved": 15,
  "resolveFailed": 0,
- "total": 7756
+ "total": 7776
 }
