@@ -1,29 +1,29 @@
 {
- "scannedAt": "2026-11-16T06:32:34.931Z",
+ "scannedAt": "2026-11-16T18:35:14.600Z",
  "mode": "scan",
  "cats": {
   "rate": {
    "queries": 4,
    "failed": 0,
-   "items": 72,
+   "items": 66,
    "why": []
   },
   "policy": {
    "queries": 5,
    "failed": 0,
-   "items": 230,
+   "items": 222,
    "why": []
   },
   "tax": {
    "queries": 4,
    "failed": 0,
-   "items": 102,
+   "items": 110,
    "why": []
   },
   "market": {
    "queries": 5,
    "failed": 0,
-   "items": 136,
+   "items": 141,
    "why": []
   },
   "build": {
@@ -35,13 +35,13 @@
   "local": {
    "queries": 3,
    "failed": 0,
-   "items": 93,
+   "items": 97,
    "why": []
   },
   "dispute": {
    "queries": 2,
    "failed": 0,
-   "items": 47,
+   "items": 43,
    "why": []
   },
   "ptt": {
@@ -54,7 +54,7 @@
   "kw": {
    "queries": 5,
    "failed": 0,
-   "items": 92,
+   "items": 86,
    "why": []
   }
  },
@@ -63,14 +63,14 @@
    "src": "中央銀行",
    "ok": true,
    "items": 500,
-   "matched": 76,
+   "matched": 75,
    "why": null
   },
   "mof": {
    "src": "財政部",
    "ok": true,
-   "items": 1193,
-   "matched": 133,
+   "items": 1199,
+   "matched": 135,
    "why": null
   },
   "dot": {
@@ -102,10 +102,10 @@
    "why": null
   }
  },
- "ms": 11451,
- "added": 58,
- "merged": 10,
- "resolved": 52,
+ "ms": 11856,
+ "added": 85,
+ "merged": 3,
+ "resolved": 72,
  "resolveFailed": 0,
- "total": 7834
+ "total": 7919
 }
