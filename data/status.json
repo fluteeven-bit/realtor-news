@@ -1,47 +1,56 @@
 {
- "scannedAt": "2026-11-16T18:35:14.600Z",
+ "scannedAt": "2026-11-17T02:56:27.366Z",
  "mode": "scan",
  "cats": {
   "rate": {
    "queries": 4,
-   "failed": 0,
-   "items": 66,
-   "why": []
+   "failed": 2,
+   "items": 24,
+   "why": [
+    "HTTP 429",
+    "HTTP 429"
+   ]
   },
   "policy": {
    "queries": 5,
-   "failed": 0,
-   "items": 222,
-   "why": []
+   "failed": 3,
+   "items": 36,
+   "why": [
+    "HTTP 429",
+    "HTTP 429",
+    "HTTP 429"
+   ]
   },
   "tax": {
    "queries": 4,
-   "failed": 0,
-   "items": 110,
-   "why": []
+   "failed": 1,
+   "items": 92,
+   "why": [
+    "HTTP 429"
+   ]
   },
   "market": {
    "queries": 5,
    "failed": 0,
-   "items": 141,
+   "items": 150,
    "why": []
   },
   "build": {
    "queries": 2,
    "failed": 0,
-   "items": 45,
+   "items": 44,
    "why": []
   },
   "local": {
    "queries": 3,
    "failed": 0,
-   "items": 97,
+   "items": 101,
    "why": []
   },
   "dispute": {
    "queries": 2,
    "failed": 0,
-   "items": 43,
+   "items": 45,
    "why": []
   },
   "ptt": {
@@ -53,9 +62,11 @@
   },
   "kw": {
    "queries": 5,
-   "failed": 0,
-   "items": 86,
-   "why": []
+   "failed": 1,
+   "items": 70,
+   "why": [
+    "HTTP 429"
+   ]
   }
  },
  "official": {
@@ -102,10 +113,10 @@
    "why": null
   }
  },
- "ms": 11856,
- "added": 85,
- "merged": 3,
- "resolved": 72,
- "resolveFailed": 0,
- "total": 7919
+ "ms": 10297,
+ "added": 37,
+ "merged": 2,
+ "resolved": 24,
+ "resolveFailed": 7,
+ "total": 7956
 }
