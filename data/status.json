@@ -1,56 +1,47 @@
 {
- "scannedAt": "2026-11-17T02:56:27.366Z",
+ "scannedAt": "2026-11-17T13:28:56.697Z",
  "mode": "scan",
  "cats": {
   "rate": {
    "queries": 4,
-   "failed": 2,
-   "items": 24,
-   "why": [
-    "HTTP 429",
-    "HTTP 429"
-   ]
+   "failed": 0,
+   "items": 67,
+   "why": []
   },
   "policy": {
    "queries": 5,
-   "failed": 3,
-   "items": 36,
-   "why": [
-    "HTTP 429",
-    "HTTP 429",
-    "HTTP 429"
-   ]
+   "failed": 0,
+   "items": 218,
+   "why": []
   },
   "tax": {
    "queries": 4,
-   "failed": 1,
-   "items": 92,
-   "why": [
-    "HTTP 429"
-   ]
+   "failed": 0,
+   "items": 114,
+   "why": []
   },
   "market": {
    "queries": 5,
    "failed": 0,
-   "items": 150,
+   "items": 148,
    "why": []
   },
   "build": {
    "queries": 2,
    "failed": 0,
-   "items": 44,
+   "items": 47,
    "why": []
   },
   "local": {
    "queries": 3,
    "failed": 0,
-   "items": 101,
+   "items": 100,
    "why": []
   },
   "dispute": {
    "queries": 2,
    "failed": 0,
-   "items": 45,
+   "items": 46,
    "why": []
   },
   "ptt": {
@@ -62,11 +53,9 @@
   },
   "kw": {
    "queries": 5,
-   "failed": 1,
-   "items": 70,
-   "why": [
-    "HTTP 429"
-   ]
+   "failed": 0,
+   "items": 82,
+   "why": []
   }
  },
  "official": {
@@ -107,16 +96,16 @@
   },
   "moi-rule": {
    "src": "內政部（法規發布）",
-   "ok": true,
-   "items": 20,
-   "matched": 7,
-   "why": null
+   "ok": false,
+   "items": 0,
+   "matched": 0,
+   "why": "連不上（UND_ERR_SOCKET）"
   }
  },
- "ms": 10297,
- "added": 37,
- "merged": 2,
- "resolved": 24,
- "resolveFailed": 7,
- "total": 7956
+ "ms": 13368,
+ "added": 109,
+ "merged": 5,
+ "resolved": 86,
+ "resolveFailed": 16,
+ "total": 8065
 }
