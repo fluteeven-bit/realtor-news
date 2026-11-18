@@ -1,11 +1,11 @@
 {
- "scannedAt": "2026-11-18T07:31:37.020Z",
+ "scannedAt": "2026-11-18T17:16:50.755Z",
  "mode": "scan",
  "cats": {
   "rate": {
    "queries": 4,
    "failed": 0,
-   "items": 72,
+   "items": 74,
    "why": []
   },
   "policy": {
@@ -17,31 +17,31 @@
   "tax": {
    "queries": 4,
    "failed": 0,
-   "items": 120,
+   "items": 105,
    "why": []
   },
   "market": {
    "queries": 5,
    "failed": 0,
-   "items": 132,
+   "items": 141,
    "why": []
   },
   "build": {
    "queries": 2,
    "failed": 0,
-   "items": 51,
+   "items": 52,
    "why": []
   },
   "local": {
    "queries": 3,
    "failed": 0,
-   "items": 102,
+   "items": 96,
    "why": []
   },
   "dispute": {
    "queries": 2,
    "failed": 0,
-   "items": 44,
+   "items": 42,
    "why": []
   },
   "ptt": {
@@ -53,11 +53,9 @@
   },
   "kw": {
    "queries": 5,
-   "failed": 1,
-   "items": 64,
-   "why": [
-    "HTTP 429"
-   ]
+   "failed": 0,
+   "items": 82,
+   "why": []
   }
  },
  "official": {
@@ -71,7 +69,7 @@
   "mof": {
    "src": "財政部",
    "ok": true,
-   "items": 1201,
+   "items": 1195,
    "matched": 135,
    "why": null
   },
@@ -104,10 +102,10 @@
    "why": null
   }
  },
- "ms": 12782,
- "added": 88,
- "merged": 4,
- "resolved": 79,
- "resolveFailed": 3,
- "total": 8183
+ "ms": 11010,
+ "added": 72,
+ "merged": 8,
+ "resolved": 69,
+ "resolveFailed": 0,
+ "total": 8255
 }
