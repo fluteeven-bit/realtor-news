@@ -1,5 +1,5 @@
 {
- "scannedAt": "2026-11-19T20:39:24.515Z",
+ "scannedAt": "2026-11-20T03:18:29.399Z",
  "days": 10,
  "keywords": [
   "塭仔圳",
@@ -51,6 +51,350 @@
   }
  ],
  "items": [
+  {
+   "t": "房市兩極化：六都大樓房價走揚、公寓價格回檔",
+   "u": "https://news.591.com.tw/news/13111",
+   "src": "591新聞",
+   "at": 1795144058000,
+   "cats": [
+    "market"
+   ],
+   "id": "12s87s2"
+  },
+  {
+   "t": "北台推案破千億！10月月增33% 新北大型住宅案布局受矚",
+   "u": "https://news.ebc.net.tw/news/living/581505",
+   "src": "東森新聞",
+   "at": 1795143420000,
+   "cats": [
+    "build"
+   ],
+   "id": "9nc0cx"
+  },
+  {
+   "t": "捷運站旁的黃金地段，為何都更這麼難？新北住都破解11種產權難題，讓頂溪門戶迎來新生",
+   "u": "https://www.cw.com.tw/article/5143722",
+   "src": "天下雜誌",
+   "at": 1795143101000,
+   "cats": [
+    "policy"
+   ],
+   "id": "j4l7m3"
+  },
+  {
+   "t": "房價有感下修！ 台中公寓平均總價1年少202萬「暴跌26%」",
+   "u": "https://house.ettoday.net/news/3275359",
+   "src": "ETtoday房產雲",
+   "at": 1795143000000,
+   "cats": [
+    "market"
+   ],
+   "id": "1kjkutg"
+  },
+  {
+   "t": "新莊選戰》3號蕭夙玲從一盞路燈談參選 深耕16年提夜間托育、塭仔圳社福同步到位",
+   "u": "https://n.yam.com/Article/20261120333359",
+   "src": "蕃新聞",
+   "at": 1795142865000,
+   "cats": [
+    "kw"
+   ],
+   "kw": "塭仔圳",
+   "id": "1utyhjt"
+  },
+  {
+   "t": "高雄亞灣社宅開放申請！月租7990元起含管理費 享捷運、輕軌雙機能",
+   "u": "https://www.myhousing.com.tw/n/n01/south-taiwan/kaohsiung-estate/307677/",
+   "src": "住展雜誌",
+   "at": 1795142047000,
+   "cats": [
+    "policy"
+   ],
+   "id": "v6ukc2"
+  },
+  {
+   "t": "房東租約亂加條款恐挨罰！禁報戶口、禁租補都無效 專家解析5大租屋限制",
+   "u": "https://newsdaily.tw/news/wxvc1mvrglf",
+   "src": "newsdaily.tw",
+   "at": 1795141980000,
+   "cats": [
+    "tax"
+   ],
+   "id": "zi04pl"
+  },
+  {
+   "t": "房市出現殘酷分水嶺！六都大樓全上漲公寓卻掀跌價潮| 區域觀測站",
+   "u": "https://house.udn.com/house/story/123590/9890712?form=udn_ch2_common3_cate",
+   "src": "udn房地產",
+   "at": 1795141940000,
+   "cats": [
+    "market"
+   ],
+   "id": "1y9e5js"
+  },
+  {
+   "t": "六都危老核准率破9成！李興中揭密：新北「建照核准」驚見斷層、台中逆勢超車- 生活新聞",
+   "u": "https://news.pchome.com.tw/living/m00363/20261120/index-79516844036353363009.html",
+   "src": "PChome Online 新聞",
+   "at": 1795140876000,
+   "cats": [
+    "policy"
+   ],
+   "id": "scvsdn"
+  },
+  {
+   "t": "115年地價稅約定轉帳12/1凌晨扣款 新竹市稅務局提醒預留足額存款",
+   "u": "https://www.cna.com.tw/postwrite/chi/450606",
+   "src": "中央社 CNA",
+   "at": 1795140629000,
+   "cats": [
+    "tax"
+   ],
+   "id": "x1yopr"
+  },
+  {
+   "t": "打造共好新模式 中市14處社宅社區好站吸引逾3萬人參與",
+   "u": "https://tw.news.yahoo.com/%E6%89%93%E9%80%A0%E5%85%B1%E5%A5%BD%E6%96%B0%E6%A8%A1%E5%BC%8F-%E4%B8%AD%E5%B8%8214%E8%99%95%E7%A4%BE%E5%AE%85%E7%A4%BE%E5%8D%80%E5%A5%BD%E7%AB%99%E5%90%B8%E5%BC%95%E9%80%BE3%E8%90%AC%E4%BA%BA%E5%8F%83%E8%88%87-013755032.html",
+   "src": "Yahoo新聞",
+   "at": 1795140549000,
+   "cats": [
+    "policy"
+   ],
+   "id": "1bjwriy"
+  },
+  {
+   "t": "北高雄社宅量能再提升 岡山信義公辦都更動土 市府分回48戶",
+   "u": "https://news.housefun.com.tw/news/article/910164491229.html",
+   "src": "好房網News",
+   "at": 1795140240000,
+   "cats": [
+    "policy"
+   ],
+   "id": "qc72ee"
+  },
+  {
+   "t": "流程改了！中央社宅招租首採「先抽後審」",
+   "u": "https://news.twhg.com.tw/ps_news_details.php?ojb=61274",
+   "src": "台灣房屋",
+   "at": 1795139620000,
+   "cats": [
+    "policy"
+   ],
+   "id": "1xd5ca5"
+  },
+  {
+   "t": "散步抵達萬大線、鄰近新板特區！敦陽國際開發打造公園校園景觀宅「敦陽擎天」",
+   "u": "https://estate.ltn.com.tw/article/29391",
+   "src": "自由時報",
+   "at": 1795139563000,
+   "cats": [
+    "local"
+   ],
+   "id": "87sx5s"
+  },
+  {
+   "t": "萬華鑽石大樓10年難漲！Sway點外地人找房最容易踩雷：住戶怕房價崩不敢說",
+   "u": "https://news.housefun.com.tw/news/article/110315491260.html",
+   "src": "好房網News",
+   "at": 1795139280000,
+   "cats": [
+    "market"
+   ],
+   "id": "bs53b1"
+  },
+  {
+   "t": "岡山大鵬九村改造 三地集團將投入32億元興建424戶住宅",
+   "u": "https://news.housefun.com.tw/news/article/202037491266.html",
+   "src": "好房網News",
+   "at": 1795139220000,
+   "cats": [
+    "policy"
+   ],
+   "id": "eq6fzn"
+  },
+  {
+   "t": "小屋換大屋！她透天換大樓多花300萬為何拿不回退稅？",
+   "u": "https://news.housefun.com.tw/news/article/130222491259.html",
+   "src": "好房網News",
+   "at": 1795139220000,
+   "cats": [
+    "tax"
+   ],
+   "id": "7biak6"
+  },
+  {
+   "t": "步行3分鐘搭輕軌！高雄亞灣社宅開搶 申請條件一次看",
+   "u": "https://news.housefun.com.tw/news/article/878758491230.html",
+   "src": "好房網News",
+   "at": 1795138320000,
+   "cats": [
+    "policy"
+   ],
+   "id": "1p00zxh"
+  },
+  {
+   "t": "美國樓市持續低迷！30年期房貸利率六週來首次回升至7.28% 購房需求創歷史新低作者智通財經",
+   "u": "https://hk.investing.com/news/stock-market-news/article-1768689",
+   "src": "Investing.com 香港 - 股市報價& 財經新聞",
+   "at": 1795137872000,
+   "cats": [
+    "rate"
+   ],
+   "id": "thue2"
+  },
+  {
+   "t": "「共好、共生、共學」新模式 台中市社區好站進駐社會住宅",
+   "u": "https://focus.586.com.tw/2026/11/20/p412535/",
+   "src": "焦點時報",
+   "at": 1795136905000,
+   "cats": [
+    "policy"
+   ],
+   "id": "11059m2"
+  },
+  {
+   "t": "爸爸幫兒子買1800萬房子！送頭期款和自己貸款買房，贈與稅竟差44萬， 國稅局揭原因",
+   "u": "https://www.storm.mg/lifestyle/11182974",
+   "src": "風傳媒",
+   "at": 1795134600000,
+   "cats": [
+    "tax"
+   ],
+   "id": "qrxw9k"
+  },
+  {
+   "t": "擺脫鬼城！從關心青埔房市、軌道 到房價依舊廝殺 「賣方勇於降價賣」？",
+   "u": "https://news.housefun.com.tw/news/article/amp/491538491250.html",
+   "src": "好房網News",
+   "at": 1795134600000,
+   "cats": [
+    "market"
+   ],
+   "id": "9yraf1"
+  },
+  {
+   "t": "都更政策大對決1》解決城市老化危機 蔣萬安要從最難瓶頸開刀",
+   "u": "https://www.wealth.com.tw/articles/47e8e37c-1676-49d6-86c8-2419e2b39bbb",
+   "src": "財訊",
+   "at": 1795134399000,
+   "cats": [
+    "policy"
+   ],
+   "id": "1ybnil1"
+  },
+  {
+   "t": "房貸排撥惡夢真的結束？首購族嚴防「2＋1」風險",
+   "u": "https://news.housefun.com.tw/news/article/amp/715215491233.html",
+   "src": "好房網News",
+   "at": 1795134300000,
+   "cats": [
+    "rate"
+   ],
+   "id": "edppay"
+  },
+  {
+   "t": "新北2房小宅「驚艷一堆女性購屋客」！超關鍵吸引力揭曉",
+   "u": "https://news.housefun.com.tw/news/article/amp/678741491248.html",
+   "src": "好房網News",
+   "at": 1795134000000,
+   "cats": [
+    "kw"
+   ],
+   "kw": "泰山 建案",
+   "id": "1i8llb1"
+  },
+  {
+   "t": "岡山公辦都更斥資32億動土！424戶住宅、社宅同步進駐 半導體S廊帶帶動北高雄居住需求",
+   "u": "https://news.housefun.com.tw/news/article/268439491231.html",
+   "src": "好房網News",
+   "at": 1795133400000,
+   "cats": [
+    "policy"
+   ],
+   "id": "ywyplg"
+  },
+  {
+   "t": "亞灣社宅超搶手！保留40%戶數優先提供婚育家庭",
+   "u": "https://news.housefun.com.tw/news/article/amp/881645491232.html",
+   "src": "好房網News",
+   "at": 1795133400000,
+   "cats": [
+    "policy"
+   ],
+   "id": "83fhth"
+  },
+  {
+   "t": "房市／新百貨來了 信義房屋：小檜溪機能再升級",
+   "u": "https://www.nownews.com/amp/news/6893783",
+   "src": "NOWnews今日新聞",
+   "at": 1795133220000,
+   "cats": [
+    "market"
+   ],
+   "id": "1qzr6zv"
+  },
+  {
+   "t": "通膨超預期推升美債殖利率 美國房貸利率衝上 7.28% 創單週最大漲幅",
+   "u": "https://n.yam.com/Article/20261120116688",
+   "src": "蕃新聞",
+   "at": 1795130195000,
+   "cats": [
+    "rate"
+   ],
+   "id": "11lfyt1"
+  },
+  {
+   "t": "房市交易情報／永慶房屋揭六都幼年人口占比前十名台中包辦4席園區、學區成焦點！ 林口、善化入列北市這2區也上榜",
+   "u": "https://www.mirrormedia.mg/story/20261120mkt001",
+   "src": "鏡週刊Mirror Media",
+   "at": 1795129200000,
+   "cats": [
+    "market"
+   ],
+   "id": "fo6mv0"
+  },
+  {
+   "t": "大新莊全面起飛！ 「中悦中心」第一支鋼柱吊樁啟動 完成大新莊最後一塊拼圖 | 房市情報 | 商情",
+   "u": "https://money.udn.com/money/story/5638/9889247",
+   "src": "經濟日報",
+   "at": 1795127268000,
+   "cats": [
+    "kw"
+   ],
+   "kw": "新莊副都心",
+   "id": "tpibw9"
+  },
+  {
+   "t": "基泰大直塌樓3年受災戶等不到都更！蔣萬安稱全力協助 她轟：市府護航",
+   "u": "https://tw.news.yahoo.com/%E5%9F%BA%E6%B3%B0%E5%A4%A7%E7%9B%B4%E5%A1%8C%E6%A8%933%E5%B9%B4%E5%8F%97%E7%81%BD%E6%88%B6%E7%AD%89%E4%B8%8D%E5%88%B0%E9%83%BD%E6%9B%B4-%E8%94%A3%E8%90%AC%E5%AE%89%E7%A8%B1%E5%85%A8%E5%8A%9B%E5%8D%94%E5%8A%A9-%E5%A5%B9%E8%BD%9F-%E5%B8%82%E5%BA%9C%E8%AD%B7%E8%88%AA-222100592.html",
+   "src": "Yahoo新聞",
+   "at": 1795126860000,
+   "cats": [
+    "policy"
+   ],
+   "id": "15pkj3x"
+  },
+  {
+   "t": "房價漲了就翻臉？建商解約預售屋轉手多賺千萬 張奕晨律師教3招擋下片面解約",
+   "u": "https://more-news.tw/773171/",
+   "src": "墨新聞-MORE News",
+   "at": 1795125252000,
+   "cats": [
+    "dispute"
+   ],
+   "id": "15ocsui"
+  },
+  {
+   "t": "討論牆 | 新泰塭仔圳新闢道路再開放（2）(圖)",
+   "u": "https://today.line.me/tw/v3/posts/list/article/9m3a3ME",
+   "src": "LINE TODAY",
+   "at": 1795124147000,
+   "cats": [
+    "kw"
+   ],
+   "kw": "塭仔圳",
+   "id": "1mnslgn"
+  },
   {
    "t": "岡山首處公辦都更動土 增48戶社宅",
    "u": "https://www.chinatimes.com/newspapers/20261120000671-260107",
@@ -189,7 +533,8 @@
    "cats": [
     "build"
    ],
-   "id": "13xxkbw"
+   "id": "13xxkbw",
+   "dup": 1
   },
   {
    "t": "台北推案豪宅版圖大洗牌 大直水岸退燒了",
@@ -274,6 +619,16 @@
    "id": "wcnu2f"
   },
   {
+   "t": "房市冷靜期逆勢深耕！瀞川建設安南區海前段新案動土 預計明年公開",
+   "u": "https://www.fbs168.com/news/11352-jingchuan-construction-breaks-ground-on-annan-district-proje",
+   "src": "富比士地產王",
+   "at": 1795097377000,
+   "cats": [
+    "market"
+   ],
+   "id": "19qkdfg"
+  },
+  {
    "t": "中央社宅第4季招租 新北、嘉、南、花供1672戶 11/30開放申請",
    "u": "https://www.taiwanhot.net/news/1154749/%E4%B8%AD%E5%A4%AE%E7%A4%BE%E5%AE%85%E7%AC%AC4%E5%AD%A3%E6%8B%9B%E7%A7%9F+%E6%96%B0%E5%8C%97%E3%80%81%E5%98%89%E3%80%81%E5%8D%97%E3%80%81%E8%8A%B1%E4%BE%9B1672%E6%88%B6+11-30%E9%96%8B%E6%94%BE%E7%94%B3%E8%AB%8B",
    "src": "台灣好新聞",
@@ -332,6 +687,16 @@
     "tax"
    ],
    "id": "1m6rmes"
+  },
+  {
+   "t": "想省贈與稅！母分年過戶3千萬透天厝 專家曝「房地合一稅陷阱」：恐多繳330萬",
+   "u": "https://tw.news.yahoo.com/%E6%83%B3%E7%9C%81%E8%B4%88%E8%88%87%E7%A8%85-%E6%AF%8D%E5%88%86%E5%B9%B4%E9%81%8E%E6%88%B63%E5%8D%83%E8%90%AC%E9%80%8F%E5%A4%A9%E5%8E%9D-%E5%B0%88%E5%AE%B6%E6%9B%9D-%E6%88%BF%E5%9C%B0%E5%90%88-%E7%A8%85%E9%99%B7%E9%98%B1-120005872.html",
+   "src": "Yahoo新聞",
+   "at": 1795089605000,
+   "cats": [
+    "tax"
+   ],
+   "id": "u7y54z"
   },
   {
    "t": "都更動輒8到10年 卡在整合與成本",
@@ -409,9 +774,11 @@
    "src": "中天新聞網",
    "at": 1795084852000,
    "cats": [
-    "policy"
+    "policy",
+    "market"
    ],
-   "id": "1wv7v4k"
+   "id": "1wv7v4k",
+   "dup": 1
   },
   {
    "t": "亞灣社宅第一期634戶開放申請至12/8",
@@ -707,7 +1074,8 @@
    "cats": [
     "market"
    ],
-   "id": "d5p06l"
+   "id": "d5p06l",
+   "dup": 1
   },
   {
    "t": "亞灣社宅634戶開放申請 最低月租7990元、婚育家庭優先",
@@ -778,6 +1146,16 @@
     "policy"
    ],
    "id": "18popx"
+  },
+  {
+   "t": "亞灣社宅",
+   "u": "https://maygoddejia.com.tw/tag/%E4%BA%9E%E7%81%A3%E7%A4%BE%E5%AE%85/",
+   "src": "maygoddejia.com.tw",
+   "at": 1795075200000,
+   "cats": [
+    "policy"
+   ],
+   "id": "1nuky8x"
   },
   {
    "t": "房市冷清建商照樣低調獵地！專家揭業界「英雄比氣長」算盤：先清舊案價格難鬆動| 房產新訊",
@@ -1170,6 +1548,16 @@
    "kw": "泰山 建案"
   },
   {
+   "t": "嘉義、花蓮新社宅先抽後審明年6月起入住- 生活新聞",
+   "u": "https://news.pchome.com.tw/living/awakening/20261119/index-17950652058291743009.html",
+   "src": "PChome Online 新聞",
+   "at": 1795065205000,
+   "cats": [
+    "policy"
+   ],
+   "id": "7gv1qg"
+  },
+  {
    "t": "2026 九合一選舉房市政見懶人包：社宅、婚育宅、可負擔住宅、都更，各縣市候選人怎麼說？",
    "u": "https://applealmondrealty.com/posts/55346",
    "src": "果仁家",
@@ -1178,6 +1566,16 @@
     "policy"
    ],
    "id": "mmjlfz"
+  },
+  {
+   "t": "府中遊龍天橋、新埔民生地下道工程爭議 李昆穎： 應做好事前評估與預算把關",
+   "u": "https://cnews.com.tw/248261119a05/",
+   "src": "匯流新聞網",
+   "at": 1795064859000,
+   "cats": [
+    "local"
+   ],
+   "id": "7b79l1"
   },
   {
    "t": "新北嘉市台南花蓮6案中央社宅招租採先抽後審新制| 政治",
@@ -1259,6 +1657,16 @@
     "policy"
    ],
    "id": "1h1qgp8"
+  },
+  {
+   "t": "想抽社宅別錯過！國住都再釋出1,672戶月底申請、明年6月住",
+   "u": "https://udn.com/news/story/7241/9888534",
+   "src": "UDN",
+   "at": 1795060723000,
+   "cats": [
+    "policy"
+   ],
+   "id": "dgo26z"
   },
   {
    "t": "中央社宅第4季招租 11/30開放申請、明年6月入住 新北、嘉義市、臺南及花蓮共1,672戶",
@@ -1392,9 +1800,20 @@
    "src": "591新聞",
    "at": 1795057036000,
    "cats": [
-    "market"
+    "market",
+    "build"
    ],
    "id": "wb836l"
+  },
+  {
+   "t": "晚十年買房多準備一台雙B！新竹自備款增幅冠七都",
+   "u": "https://money.udn.com/money/amp/story/5621/9888291",
+   "src": "經濟日報",
+   "at": 1795056771000,
+   "cats": [
+    "market"
+   ],
+   "id": "4r4r37"
   },
   {
    "t": "晚十年買房多準備一台雙B！新竹自備款增幅冠七都| 區域觀測站",
@@ -1417,6 +1836,16 @@
    "id": "1mut075"
   },
   {
+   "t": "金管會為何急約37家銀行喝咖啡？專家示警「房市變天」！房貸恐更難貸、明年還有3大逆風| 李同榮 | 風生活",
+   "u": "https://www.storm.mg/lifestyle/11182977",
+   "src": "風傳媒",
+   "at": 1795056060000,
+   "cats": [
+    "rate"
+   ],
+   "id": "1dqpkt"
+  },
+  {
    "t": "新青安寬限期滿雙北房價要崩了？房仲直接潑冷水：別想了沒這種事",
    "u": "https://house.udn.com/house/story/123589/9888250",
    "src": "udn房地產",
@@ -1424,7 +1853,8 @@
    "cats": [
     "rate"
    ],
-   "id": "1cks25o"
+   "id": "1cks25o",
+   "dup": 1
   },
   {
    "t": "新青安寬限期滿雙北房價要崩了？房仲直接潑冷水：別想了沒這種事| 房產新訊",
@@ -1549,6 +1979,16 @@
    "id": "fwob3u"
   },
   {
+   "t": "國銀房貸集中度降至34.02％！創逾20年新低 專家揭房市「三個不願意」困局",
+   "u": "https://news.housefun.com.tw/news/article/amp/159338491220.html",
+   "src": "好房網News",
+   "at": 1795051800000,
+   "cats": [
+    "policy"
+   ],
+   "id": "1iimk5o"
+  },
+  {
    "t": "高利率掐住美台房市！美國成屋簽約量創25年新低台灣12月升息警報響、房貸族皮繃緊- 房市",
    "u": "https://www.ctee.com.tw/news/20261119700612-430601",
    "src": "工商時報",
@@ -1567,6 +2007,16 @@
     "market"
    ],
    "id": "1vjr80u"
+  },
+  {
+   "t": "私校周邊房價「一個比一個狠」 6字頭只是基本？",
+   "u": "https://news.housefun.com.tw/news/article/104369491198.html",
+   "src": "好房網News",
+   "at": 1795049100000,
+   "cats": [
+    "market"
+   ],
+   "id": "1g1gmfg"
   },
   {
    "t": "老屋沒權狀也能省地價稅！稅務局教戰：備妥「這張紙」享千分之二優惠- 生活新聞",
@@ -1607,6 +2057,16 @@
     "market"
    ],
    "id": "o2g5t1"
+  },
+  {
+   "t": "台中海線、北屯、彰化現賣壓！待售物件半年暴增逾3成：5大預警區曝",
+   "u": "https://house.udn.com/house/story/123589/9887975",
+   "src": "udn房地產",
+   "at": 1795048427000,
+   "cats": [
+    "policy"
+   ],
+   "id": "1o4zdzl"
   },
   {
    "t": "台南東區2.25公頃都更再招商！緊鄰未來車站打造副都心門戶",
@@ -1657,6 +2117,17 @@
     "policy"
    ],
    "id": "3eb50t"
+  },
+  {
+   "t": "新莊宏匯廣場幸福聖誕心願之樹點亮！踩雪橇互動音樂盒與UNIQLO改裝擴大1.5倍亮點｜喚月部落格",
+   "u": "https://moonvoke.com/posts/honhui-plaza-xinzhuang-christmas-tree-uniqlo-guide-2026/",
+   "src": "moonvoke.com",
+   "at": 1795045043000,
+   "cats": [
+    "kw"
+   ],
+   "kw": "新莊副都心",
+   "id": "w274dm"
   },
   {
    "t": "房市交易情報／青安3.0卡住預售交屋？永慶房屋：七都逾6成在總價門檻內台北仍有近6成符合總價上限非七都則高達99%以上",
@@ -2094,7 +2565,18 @@
    "cats": [
     "market"
    ],
-   "id": "16fmleq"
+   "id": "16fmleq",
+   "dup": 1
+  },
+  {
+   "t": "永慶房屋：大巨蛋賽事、演唱會添商機？ 東區3站店租齊進前十",
+   "u": "https://www.cna.com.tw/business/chinese/450444",
+   "src": "中央社 CNA",
+   "at": 1794994341000,
+   "cats": [
+    "market"
+   ],
+   "id": "12rdesi"
   },
   {
    "t": "深度報導／房價沒跌 市場就沒事？勇敢讓利少賺「賣方有這底氣」",
@@ -3895,6 +4377,16 @@
    "id": "1a9nngw"
   },
   {
+   "t": "央行升息萬事俱備玉山金估年底先升半碼- 財經新聞",
+   "u": "https://news.pchome.com.tw/finance/nownews/20261117/index-79490446006710207003.html",
+   "src": "PChome Online 新聞",
+   "at": 1794904460000,
+   "cats": [
+    "rate"
+   ],
+   "id": "14xwvwp"
+  },
+  {
    "t": "永和沒上榜！新北人口最多五大區出爐房價、房市熱度一次看| 房產",
    "u": "https://www.setn.com/news/1873324",
    "src": "三立新聞網SETN.com",
@@ -5295,6 +5787,16 @@
    "id": "1t5zw56"
   },
   {
+   "t": "社宅承租新制上路！未成年子女數納入胎兒計算 子女越多優先順位越前 | CTWANT",
+   "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9hdU1TVVZFNFl1SzNWR1kzY05HQ2lSRm1GYjFZRDZVRlNUUDF3R0l0Rm9DUTFiZ3JmQVZlcE5mOVUzanVidS1DS2pPdHlYcVJid1JBbHJB?oc=5",
+   "src": "LINE TODAY",
+   "at": 1794820552000,
+   "cats": [
+    "policy"
+   ],
+   "id": "u6i7nd"
+  },
+  {
    "t": "跟鄰居交換車位別急著簽！「2關鍵條件」一變動恐得申報契稅",
    "u": "https://news.housefun.com.tw/news/article/832765491094.html",
    "src": "好房網News",
@@ -5496,6 +5998,7 @@
    "src": "LINE TODAY",
    "at": 1794817072000,
    "cats": [
+    "local",
     "kw"
    ],
    "kw": "塭仔圳",
@@ -5570,6 +6073,7 @@
    "src": "自由財經",
    "at": 1794815812000,
    "cats": [
+    "policy",
     "market"
    ],
    "id": "1gcbmee",
@@ -5733,6 +6237,16 @@
     "local"
    ],
    "id": "nl7a83"
+  },
+  {
+   "t": "新北捷運環狀線板橋站開工 侯友宜盼工程順利圓滿 | 青年日報",
+   "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SdHhPSmxuYzFVcVdRNGJhU2hyOXJYamlWTVpTUU1QYVVNdW5KRVVsbkhOUDQ1MThLWXZBNm5YWHU3YzVxek5XdHQxT0Ixclo3aGRfZFhn?oc=5",
+   "src": "LINE TODAY",
+   "at": 1794812716000,
+   "cats": [
+    "local"
+   ],
+   "id": "15mtgbm"
   },
   {
    "t": "六都「小孩最多」行政區出爐！ 平均每坪房價僅24萬",
@@ -7230,6 +7744,16 @@
    "id": "wr5syj"
   },
   {
+   "t": "討論牆 | 房地合一稅前10月收433億！全年上看500億 業者談「疫後轉手潮」",
+   "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB4Zk9kSV9HeDUwbEY0N3hpVzJFSExTV0J2Y2ROUVpyUmNPNFRFZlQwdzRsdW43OG9rTkxLQldkWGI2dU55QUpOUDVWRVBISzMzZ0owUUs5enBLazdmSl9VdnBqU0U?oc=5",
+   "src": "LINE TODAY",
+   "at": 1794654461000,
+   "cats": [
+    "tax"
+   ],
+   "id": "wdw0sf"
+  },
+  {
    "t": "千萬新屋住半年成災區！陽台漏水如噴泉 地板修12次仍滲水",
    "u": "https://news.tvbs.com.tw/local/4050641",
    "src": "TVBS新聞網",
@@ -7275,9 +7799,11 @@
    "src": "Yahoo新聞",
    "at": 1794647940000,
    "cats": [
-    "market"
+    "market",
+    "local"
    ],
-   "id": "1fxx2mk"
+   "id": "1fxx2mk",
+   "dup": 1
   },
   {
    "t": "【台北】不只有科學園區！內湖四期低密度美式生活圈 房價抗跌性高",
@@ -9229,6 +9755,16 @@
     "tax"
    ],
    "id": "6t6k6j"
+  },
+  {
+   "t": "房地合一稅前10月收433億！全年上看500億 業者談「疫後轉手潮」 | 住展",
+   "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91UHFrcUE1S2c5djNHazdlWktINDg5YlVySHB4N05BeUYtQUxHU2NjZzl3ZUp2MFN2VmJiQkp3SUtMM2RCSTNEdkNFdWRha0NOSktnRUpB?oc=5",
+   "src": "LINE TODAY",
+   "at": 1794542049000,
+   "cats": [
+    "tax"
+   ],
+   "id": "122i3pf"
   },
   {
    "t": "AI富豪下一步買哪裡？專家揭房市新變局：這兩種人將成買房主力",
@@ -15375,407 +15911,6 @@
     "policy"
    ],
    "id": "1rizxgk"
-  },
-  {
-   "t": "中央300億租金補貼遭盯上 花蓮男找街友當假房客3年詐領百萬",
-   "u": "https://udn.com/news/story/7321/9868581",
-   "src": "UDN",
-   "at": 1794280671000,
-   "cats": [
-    "policy"
-   ],
-   "id": "b3ubm0"
-  },
-  {
-   "t": "政策利多頻加碼 核定速度反而跟不上！都更為何「愈推愈卡關」？",
-   "u": "https://urbanrenewal.wealth.com.tw/news-detail/2573",
-   "src": "都更全都通",
-   "at": 1794280585000,
-   "cats": [
-    "policy"
-   ],
-   "id": "1lzyizb"
-  },
-  {
-   "t": "新北捷運局攜手土水學會 傳承三鶯線實戰經驗",
-   "u": "https://news.ebc.net.tw/news/living/579954",
-   "src": "東森新聞",
-   "at": 1794280500000,
-   "cats": [
-    "local"
-   ],
-   "id": "j6gxkd"
-  },
-  {
-   "t": "Re: [閒聊] 明年中房市會逆轉",
-   "u": "https://www.ptt.cc/bbs/home-sale/M.1794280371.A.826.html",
-   "src": "PTT 房屋板",
-   "at": 1794280371000,
-   "cats": [
-    "ptt"
-   ],
-   "push": "28",
-   "id": "16ltfz8"
-  },
-  {
-   "t": "台中房市冷熱兩樣情！全市移轉量年減7.4% 「這區」卻逆勢大增57.6% | 住展",
-   "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmcDBacDVIYUdqT0tYMUJKS1VzcndILXF5NHY5Wk0wLVk0YmxhZ1dqN0YwYVBtbDA4eld4R18xVllJZGNIdjZPMWVzcUNZZC13OE95V2FB?oc=5",
-   "src": "LINE TODAY",
-   "at": 1794280190000,
-   "cats": [
-    "market"
-   ],
-   "id": "1tjefme"
-  },
-  {
-   "t": "台南喜樹灣裡公辦都更即日起公告招商 共創濱海開發新契機",
-   "u": "https://udn.com/news/amp/story/7241/9868540",
-   "src": "UDN",
-   "at": 1794280095000,
-   "cats": [
-    "policy"
-   ],
-   "id": "40kobf"
-  },
-  {
-   "t": "房市低迷農16沒差！友眾新案動土單坪均價比國揚便宜7.56萬",
-   "u": "https://news.nextapple.com/property/20261110/C820ECB0BCA188A07891984C2EDFFE94",
-   "src": "壹蘋新聞網",
-   "at": 1794279900000,
-   "cats": [
-    "market"
-   ],
-   "id": "vwt2l5"
-  },
-  {
-   "t": "抽屜「塞滿錢」！非法集團高報酬話術吸金逾70億 檢調搜索查獲8700萬現金",
-   "u": "https://www.mirrormedia.mg/external/mirrordaily_96876/",
-   "src": "鏡週刊Mirror Media",
-   "at": 1794278940000,
-   "cats": [
-    "kw"
-   ],
-   "kw": "新莊副都心",
-   "id": "115dwj5"
-  },
-  {
-   "t": "葉芷娟換屋棄成屋！自曝轉戰預售關鍵：為保留資金賺股市多頭",
-   "u": "https://house.udn.com/house/story/123589/9868446",
-   "src": "udn房地產",
-   "at": 1794278574000,
-   "cats": [
-    "market"
-   ],
-   "id": "1nkrmhy"
-  },
-  {
-   "t": "台中房市冷熱兩樣情！全市移轉量年減7.4% 「這區」卻逆勢大增57.6%",
-   "u": "https://n.yam.com/Article/20261110749332",
-   "src": "蕃新聞",
-   "at": 1794277919000,
-   "cats": [
-    "policy",
-    "market"
-   ],
-   "id": "16de7si",
-   "dup": 3
-  },
-  {
-   "t": "高雄男女購屋版圖曝光！小資女愛這區",
-   "u": "https://money.udn.com/money/story/5621/9868379",
-   "src": "經濟日報",
-   "at": 1794276704000,
-   "cats": [
-    "market"
-   ],
-   "id": "3voizp"
-  },
-  {
-   "t": "高雄男女購屋版圖曝光！小資女愛這區 | 房市話題 | 房市",
-   "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BQ0c0dEFPUjVBZFpsVzFyTllJNkQwZVRIV2VGWDVoR19iT0FBZGFScUt5ZlFDbzhFVXdBQXFGbXFIQXlLY3ZOcmpFcXZFZmZaM1NGSWR1ZkVvUQ?oc=5",
-   "src": "經濟日報",
-   "at": 1794276704000,
-   "cats": [
-    "market"
-   ],
-   "id": "ru8u5s"
-  },
-  {
-   "t": "高雄房市10問｜賴瑞隆柯志恩老屋都更危老PK 融資槓桿兼社福對決加碼補助設單一窗口",
-   "u": "https://news.nextapple.com/property/20261110/75C85D2CB41330A538BD4CD597706313",
-   "src": "壹蘋新聞網",
-   "at": 1794276600000,
-   "cats": [
-    "policy",
-    "market"
-   ],
-   "id": "na4c3b"
-  },
-  {
-   "t": "喜樹灣裡公辦都更招商 4.56公頃基地引民間投資",
-   "u": "https://news111.com.tw/news/51/13674",
-   "src": "樂上新聞網",
-   "at": 1794276569000,
-   "cats": [
-    "policy"
-   ],
-   "id": "15g1ph5"
-  },
-  {
-   "t": "〈房產〉台中三大屯區建物買賣移轉棟數逆勢增 西屯年增57.6%成焦點",
-   "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBacXFGVGVRaENYMkRWZmJhNUtLaUotWTJuQTFMdFBzd203NVRMVmhnRHZSaGU5NXFVRUYySlp2T01uaVdjUFJ5OUFiVFRkaE0?oc=5",
-   "src": "鉅亨網",
-   "at": 1794276305000,
-   "cats": [
-    "market"
-   ],
-   "id": "1vyotve"
-  },
-  {
-   "t": "萬大線CQ861標預定115年11月14日晚間起進行新北市連城路(安邦街至景平路)交通維持措施調整將部分施工圍籬移設至道路北側",
-   "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjlkWm5ubW9yTVBGYnRfNTU2T1dNWVhDdExVM01NSXVEZVFUNVFRdlVpSFctUXo2ZkVoZ19FOXJoQk44OVA4Zms0bHF1QTU5MWZUY1cwUHB3alZWTWJoaXktc1Vma0UtLXZZelFKckVpNVk5a0gteTBUNS1fejJGbElxQzgtbHJtRXNBdTMzdmVucXFPNG5ZMlhkT2pjdU5W?oc=5",
-   "src": "臺北市政府全球資訊網",
-   "at": 1794276067000,
-   "cats": [
-    "local"
-   ],
-   "id": "f07x5y"
-  },
-  {
-   "t": "預售蓋好卻難交屋！台南建商財務周轉爆雷 整案轉賣陷產權戰",
-   "u": "https://house.udn.com/house/story/123589/9868279",
-   "src": "udn房地產",
-   "at": 1794275569000,
-   "cats": [
-    "dispute"
-   ],
-   "id": "2ajk0y"
-  },
-  {
-   "t": "房屋閒置別浪費！符合「3條件」出租 最高省2.4%房屋稅",
-   "u": "https://news.housefun.com.tw/news/article/610403490879.html",
-   "src": "好房網News",
-   "at": 1794275100000,
-   "cats": [
-    "tax"
-   ],
-   "id": "m22xh0"
-  },
-  {
-   "t": "屯區房市先回來了！西屯交易暴增57% 房仲點關鍵",
-   "u": "https://money.udn.com/money/story/5621/9868255",
-   "src": "經濟日報",
-   "at": 1794274418000,
-   "cats": [
-    "market"
-   ],
-   "id": "yxt348",
-   "dup": 1
-  },
-  {
-   "t": "屯區房市先回來了！西屯交易暴增57% 房仲點關鍵| 區域觀測站",
-   "u": "https://house.udn.com/house/story/123590/9868255?form=udn_ch2_common3_cate",
-   "src": "udn房地產",
-   "at": 1794274413000,
-   "cats": [
-    "market"
-   ],
-   "id": "1iumskw"
-  },
-  {
-   "t": "房客押金有保障了！台灣金聯與第一銀行首創導入「押金全額信託」",
-   "u": "https://news.housefun.com.tw/news/article/198340490906.html",
-   "src": "好房網News",
-   "at": 1794274200000,
-   "cats": [
-    "policy"
-   ],
-   "id": "1urqpwl"
-  },
-  {
-   "t": "桃園推動正光花園新城公辦都更 實戰經驗成都發局教育訓練案例",
-   "u": "https://news.housefun.com.tw/news/article/amp/179318490893.html",
-   "src": "好房網News",
-   "at": 1794274080000,
-   "cats": [
-    "policy"
-   ],
-   "id": "1tjhxyh"
-  },
-  {
-   "t": "【營建】：金安9冠王！工程安全不只拚品質，更要零風險！工地安全做得好，城市生活更美好！金安獎9項殊榮背後的故事，揭開道路、下水道、社會住宅安全施工的關鍵密碼！",
-   "u": "https://www.csbc.com.tw/156565",
-   "src": "正聲廣播電台",
-   "at": 1794273871000,
-   "cats": [
-    "policy"
-   ],
-   "id": "1fhuhfv"
-  },
-  {
-   "t": "喜樹灣裡公辦都更即日起公告招商 共創濱海開發新契機",
-   "u": "https://www.tainan.gov.tw/News_Content.aspx?n=13370&s=8845965",
-   "src": "臺南市政府全球資訊網",
-   "at": 1794273291000,
-   "cats": [
-    "policy"
-   ],
-   "id": "un9wi2"
-  },
-  {
-   "t": "房貸利率逼近8%的趨勢，對換屋族購屋意願有何影響？",
-   "u": "https://udn.com/news/ai/answer/%E6%88%BF%E8%B2%B8%E5%88%A9%E7%8E%87%E9%80%BC%E8%BF%91-59957504",
-   "src": "udn",
-   "at": 1794272968000,
-   "cats": [
-    "rate"
-   ],
-   "id": "1px7t13"
-  },
-  {
-   "t": "地價稅優惠不限一處！成年子女設籍申請條件與期限一次看",
-   "u": "https://news.housefun.com.tw/news/article/amp/183293490875.html",
-   "src": "好房網News",
-   "at": 1794272400000,
-   "cats": [
-    "tax"
-   ],
-   "id": "195sosj",
-   "dup": 1
-  },
-  {
-   "t": "「突然多補一筆現金」成買房民眾惡夢？他揭露房市最大競爭者",
-   "u": "https://news.housefun.com.tw/news/article/amp/119566490889.html",
-   "src": "好房網News",
-   "at": 1794271800000,
-   "cats": [
-    "rate"
-   ],
-   "id": "5xuc4u"
-  },
-  {
-   "t": "雙北高房價壓力 首購、通勤族湧入「這城市」？最強房市支撐區域曝",
-   "u": "https://news.housefun.com.tw/news/article/166392490890.html",
-   "src": "好房網News",
-   "at": 1794271800000,
-   "cats": [
-    "market"
-   ],
-   "id": "1mxgjrc"
-  },
-  {
-   "t": "買預售屋小心了！政府揪4大契約違規 驗收沒水電、停車位規格都藏問題",
-   "u": "https://news.housefun.com.tw/news/article/205130490887.html",
-   "src": "好房網News",
-   "at": 1794271500000,
-   "cats": [
-    "dispute"
-   ],
-   "id": "vesu39",
-   "dup": 2
-  },
-  {
-   "t": "墨西哥央行總裁羅德里格斯：自9月起一直考慮降息 –《El Financiero》",
-   "u": "https://www.tmgm.com/cht/analysis/market-news/article/banxicos-governor-rodriguez-considering-rate-cut-since-september-el-financiero-202611092119",
-   "src": "www.tmgm.com",
-   "at": 1794271276000,
-   "cats": [
-    "rate"
-   ],
-   "id": "1tciz74"
-  },
-  {
-   "t": "國際金融：日銀10月會議摘要揭升息分歧，部分委員籲加快邁向中性利率",
-   "u": "https://ww2.money-link.com.tw/realtimenews/NewsContent.aspx?SN=2442109002&PU=0009",
-   "src": "富聯網",
-   "at": 1794271140000,
-   "cats": [
-    "rate"
-   ],
-   "id": "sdg3xh"
-  },
-  {
-   "t": "建商手握大量土地不急補貨！購地金額年減4成 市場出現兩極化",
-   "u": "https://news.housefun.com.tw/news/article/amp/102703490888.html",
-   "src": "好房網News",
-   "at": 1794270900000,
-   "cats": [
-    "build"
-   ],
-   "id": "vtgslr"
-  },
-  {
-   "t": "房客退租戶籍未遷出｜逕遷戶所申請條件、辦理流程與賣房稅務影響- 房產新聞",
-   "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTlg4SzlYWnhrQkFhQ1NXa2kySUppT2VPNm9PWFhtOVVVZGJ3NWYtWWRqRUV2enB6SWpxQWVfM0tnM1gzbVY4WG1SUWZETHhhNVBMX1dHVWxxM05lOTV5QkY4X2I5blFfRmFlck9DR05Qam5naExoanltVkV6LUIzVTU3blE0N2d2Tm1kZFdn?oc=5",
-   "src": "PChome Online 新聞",
-   "at": 1794268800000,
-   "cats": [
-    "tax"
-   ],
-   "id": "xcndbw"
-  },
-  {
-   "t": "青安3.0將上路！房貸補貼3＋3年 1圖看懂新舊制7年利率變化",
-   "u": "https://www.setn.com/news/1873701",
-   "src": "三立新聞",
-   "at": 1794268524000,
-   "cats": [
-    "rate"
-   ],
-   "id": "dm0r6l",
-   "dup": 1
-  },
-  {
-   "t": "Re: [閒聊] 明年中房市會逆轉",
-   "u": "https://www.ptt.cc/bbs/home-sale/M.1794266980.A.6B6.html",
-   "src": "PTT 房屋板",
-   "at": 1794266980000,
-   "cats": [
-    "ptt"
-   ],
-   "push": "21",
-   "id": "vzbo2g"
-  },
-  {
-   "t": "[閒聊] 明年中房市會逆轉",
-   "u": "https://www.ptt.cc/bbs/home-sale/M.1794261001.A.AE8.html",
-   "src": "PTT 房屋板",
-   "at": 1794261001000,
-   "cats": [
-    "ptt"
-   ],
-   "push": "35",
-   "id": "elz3ll"
-  },
-  {
-   "t": "傳承捷運三鶯線經驗 產官學研討",
-   "u": "https://news.ltn.com.tw/news/life/paper/1777920",
-   "src": "自由時報",
-   "at": 1794259800000,
-   "cats": [
-    "local"
-   ],
-   "id": "j9v12j"
-  },
-  {
-   "t": "爆米香辛苦蓋兩棟房！病母開撕小女兒「取得房產就變臉」 警婿作證掀「假孝順內幕」",
-   "u": "https://www.mirrormedia.mg/external/amp/mirrordaily_96821",
-   "src": "鏡週刊Mirror Media",
-   "at": 1794258360000,
-   "cats": [
-    "dispute"
-   ],
-   "id": "14ethpg"
-  },
-  {
-   "t": "知名建商南漂拚戰台中 海線推案暴增",
-   "u": "https://www.setn.com/news/573813",
-   "src": "三立新聞網SETN.com",
-   "at": 1794256916000,
-   "cats": [
-    "build"
-   ],
-   "id": "10m17li"
   }
  ]
 }
