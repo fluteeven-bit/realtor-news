@@ -3,11 +3,6 @@
  "mortgage": {
   "months": [
    {
-    "ym": "2021-10",
-    "rate": 1.351,
-    "amount": 62956
-   },
-   {
     "ym": "2021-11",
     "rate": 1.351,
     "amount": 71906
@@ -301,13 +296,18 @@
     "ym": "2026-09",
     "rate": 2.315,
     "amount": 69783
+   },
+   {
+    "ym": "2026-10",
+    "rate": 2.312,
+    "amount": 72789
    }
   ],
-  "source": "https://www.cbc.gov.tw/tw/cp-302-193064-9acd9-1.html",
-  "file": "https://www.cbc.gov.tw/tw/dl-227915-6514736af4d14cd88b4a0a397720f3f9.html",
-  "title": "115年9月五大銀行新承做放款平均利率",
-  "published": "2026-10-22T08:21:00.000Z",
-  "next": "2026-11-20"
+  "source": "https://www.cbc.gov.tw/tw/cp-302-194209-e9729-1.html",
+  "file": "https://www.cbc.gov.tw/tw/dl-229089-0619da40123b4a5087ad7f0caa34a640.html",
+  "title": "115年10月五大銀行新承做放款平均利率",
+  "published": "2026-11-20T08:20:00.000Z",
+  "next": "2026-12-22"
  },
  "policy": {
   "rediscount": 2,
@@ -334,5 +334,5 @@
   "date": "2026-09-17T08:51:00.000Z",
   "title": "中央銀行理監事聯席會議決議新聞稿"
  },
- "checkedAt": "2026-11-20T03:18:39.362Z"
+ "checkedAt": "2026-11-20T12:55:51.839Z"
 }
