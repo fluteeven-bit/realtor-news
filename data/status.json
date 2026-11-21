@@ -1,52 +1,48 @@
 {
- "scannedAt": "2026-11-21T12:40:56.644Z",
+ "scannedAt": "2026-11-21T20:32:38.853Z",
  "mode": "scan",
  "cats": {
   "rate": {
    "queries": 4,
    "failed": 0,
-   "items": 94,
+   "items": 87,
    "why": []
   },
   "policy": {
    "queries": 5,
    "failed": 0,
-   "items": 242,
+   "items": 241,
    "why": []
   },
   "tax": {
    "queries": 4,
-   "failed": 1,
-   "items": 76,
-   "why": [
-    "HTTP 429"
-   ]
+   "failed": 0,
+   "items": 93,
+   "why": []
   },
   "market": {
    "queries": 5,
    "failed": 0,
-   "items": 162,
+   "items": 138,
    "why": []
   },
   "build": {
    "queries": 2,
    "failed": 0,
-   "items": 44,
+   "items": 43,
    "why": []
   },
   "local": {
    "queries": 3,
    "failed": 0,
-   "items": 92,
+   "items": 158,
    "why": []
   },
   "dispute": {
    "queries": 2,
-   "failed": 1,
-   "items": 18,
-   "why": [
-    "HTTP 429"
-   ]
+   "failed": 0,
+   "items": 37,
+   "why": []
   },
   "ptt": {
    "queries": 1,
@@ -58,7 +54,7 @@
   "kw": {
    "queries": 5,
    "failed": 0,
-   "items": 95,
+   "items": 104,
    "why": []
   }
  },
@@ -73,7 +69,7 @@
   "mof": {
    "src": "財政部",
    "ok": true,
-   "items": 1194,
+   "items": 1197,
    "matched": 134,
    "why": null
   },
@@ -106,10 +102,10 @@
    "why": null
   }
  },
- "ms": 10613,
- "added": 38,
- "merged": 4,
- "resolved": 31,
- "resolveFailed": 2,
- "total": 8843
+ "ms": 9148,
+ "added": 23,
+ "merged": 11,
+ "resolved": 14,
+ "resolveFailed": 0,
+ "total": 8866
 }
