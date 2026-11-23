@@ -1,47 +1,51 @@
 {
- "scannedAt": "2026-11-23T07:41:40.249Z",
+ "scannedAt": "2026-11-23T20:16:06.614Z",
  "mode": "scan",
  "cats": {
   "rate": {
    "queries": 4,
    "failed": 0,
-   "items": 95,
+   "items": 105,
    "why": []
   },
   "policy": {
    "queries": 5,
    "failed": 0,
-   "items": 249,
+   "items": 246,
    "why": []
   },
   "tax": {
    "queries": 4,
-   "failed": 0,
-   "items": 118,
-   "why": []
+   "failed": 1,
+   "items": 76,
+   "why": [
+    "HTTP 429"
+   ]
   },
   "market": {
    "queries": 5,
-   "failed": 0,
-   "items": 148,
-   "why": []
+   "failed": 1,
+   "items": 122,
+   "why": [
+    "HTTP 429"
+   ]
   },
   "build": {
    "queries": 2,
    "failed": 0,
-   "items": 73,
+   "items": 54,
    "why": []
   },
   "local": {
    "queries": 3,
    "failed": 0,
-   "items": 106,
+   "items": 143,
    "why": []
   },
   "dispute": {
    "queries": 2,
    "failed": 0,
-   "items": 36,
+   "items": 37,
    "why": []
   },
   "ptt": {
@@ -54,7 +58,7 @@
   "kw": {
    "queries": 5,
    "failed": 0,
-   "items": 154,
+   "items": 114,
    "why": []
   }
  },
@@ -69,8 +73,8 @@
   "mof": {
    "src": "財政部",
    "ok": true,
-   "items": 1197,
-   "matched": 134,
+   "items": 1192,
+   "matched": 132,
    "why": null
   },
   "dot": {
@@ -90,8 +94,8 @@
   "moi-draft": {
    "src": "內政部（草案預告）",
    "ok": true,
-   "items": 7,
-   "matched": 3,
+   "items": 6,
+   "matched": 2,
    "why": null
   },
   "moi-rule": {
@@ -102,10 +106,10 @@
    "why": null
   }
  },
- "ms": 13493,
- "added": 124,
- "merged": 8,
- "resolved": 103,
- "resolveFailed": 2,
- "total": 9174
+ "ms": 13765,
+ "added": 86,
+ "merged": 9,
+ "resolved": 51,
+ "resolveFailed": 25,
+ "total": 9260
 }
