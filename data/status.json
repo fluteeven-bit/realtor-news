@@ -1,5 +1,5 @@
 {
- "scannedAt": "2026-11-26T21:34:27.233Z",
+ "scannedAt": "2026-11-27T04:16:03.553Z",
  "mode": "scan",
  "cats": {
   "rate": {
@@ -11,37 +11,37 @@
   "policy": {
    "queries": 5,
    "failed": 0,
-   "items": 234,
+   "items": 266,
    "why": []
   },
   "tax": {
    "queries": 4,
    "failed": 0,
-   "items": 132,
+   "items": 121,
    "why": []
   },
   "market": {
    "queries": 5,
    "failed": 0,
-   "items": 227,
+   "items": 186,
    "why": []
   },
   "build": {
    "queries": 2,
    "failed": 0,
-   "items": 84,
+   "items": 47,
    "why": []
   },
   "local": {
    "queries": 3,
    "failed": 0,
-   "items": 145,
+   "items": 158,
    "why": []
   },
   "dispute": {
    "queries": 2,
    "failed": 0,
-   "items": 35,
+   "items": 56,
    "why": []
   },
   "ptt": {
@@ -54,7 +54,7 @@
   "kw": {
    "queries": 5,
    "failed": 0,
-   "items": 145,
+   "items": 122,
    "why": []
   }
  },
@@ -90,8 +90,8 @@
   "moi-draft": {
    "src": "內政部（草案預告）",
    "ok": true,
-   "items": 6,
-   "matched": 2,
+   "items": 8,
+   "matched": 4,
    "why": null
   },
   "moi-rule": {
@@ -102,10 +102,10 @@
    "why": null
   }
  },
- "ms": 15438,
- "added": 76,
+ "ms": 13106,
+ "added": 81,
  "merged": 14,
- "resolved": 89,
- "resolveFailed": 0,
- "total": 9979
+ "resolved": 41,
+ "resolveFailed": 30,
+ "total": 10060
 }
